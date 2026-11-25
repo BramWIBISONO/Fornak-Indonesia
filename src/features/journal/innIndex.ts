@@ -1,7 +1,7 @@
 import type { InnOpinion } from './types';
 
 // Public metadata snapshot from INN Indonesia's Opini index, retrieved 24 Nov 2026.
-// Licensed article bodies are stored separately in public/assets/opini and loaded on demand.
+// Licensed article bodies are stored separately in public/Fornak-Indonesia/Fornak-Indonesia/assets/opini and loaded on demand.
 const rows: [string, string, string, string, number][] = [
   ['POLITIK PEMBODOHAN PUBLIK: Ketika Sentimen Mengalahkan Nalar', 'politik-pembodohan-publik-ketika-sentimen-mengalahkan-nalar', 'Admin', '2026-11-17', 7],
   ['INDONESIA IN DENIAL 25 Tahun Berlalu, Kita Masih Sulit Membaca Realitas', 'krisis-literasi-indonesia', 'Admin', '2026-10-21', 5],

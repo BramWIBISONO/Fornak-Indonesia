@@ -14,7 +14,7 @@ export function ArchiveSpread() {
   const photo = photos[index];
   const step = (amount: number) => setIndex(i => (i + amount + photos.length) % photos.length);
   return <figure className={'photo-stage photo-stage--' + photo.name} aria-label={tr("Pilihan foto arsip FORNAK")}>
-    <img key={photo.name} src={'/assets/images/arsip-' + photo.name + (photo.name === 'perjumpaan' ? '.webp' : '.jpg')} alt={photo.alt} fetchPriority={index === 0 ? 'high' : 'auto'} />
+    <img key={photo.name} src={'/Fornak-Indonesia/Fornak-Indonesia/assets/images/arsip-' + photo.name + (photo.name === 'perjumpaan' ? '.webp' : '.jpg')} alt={photo.alt} fetchPriority={index === 0 ? 'high' : 'auto'} />
     <figcaption>
       <div aria-live="polite"><small><Camera size={15} aria-hidden="true"/> {tr("Arsip visual FORNAK")}</small><strong>{tr(photo.caption)}</strong></div>
       <div className="photo-controls">

@@ -26,11 +26,11 @@ export const publications: Publication[] = [
     affiliation: 'Direktur PSPI (Pusat Studi Pentakosta Indonesia), STT El-Bethel',
     pages: 8,
     fileSize: '468 KB',
-    pdf: '/assets/documents/posisi-teologis-habakuk.pdf',
+    pdf: '/Fornak-Indonesia/Fornak-Indonesia/assets/documents/posisi-teologis-habakuk.pdf',
     coverHeightAt480: 622,
-    cover: '/assets/images/sampul-posisi-teologis-habakuk-900.jpg',
+    cover: '/Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-posisi-teologis-habakuk-900.jpg',
     coverSrcSet:
-      '/assets/images/sampul-posisi-teologis-habakuk-480.jpg 480w, /assets/images/sampul-posisi-teologis-habakuk-900.jpg 900w',
+      '/Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-posisi-teologis-habakuk-480.jpg 480w, /Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-posisi-teologis-habakuk-900.jpg 900w',
     summary:
       'Kajian ini membaca Habakuk sebagai model posisi profetik: tidak berada di pusat kekuasaan atau larut dalam kerumunan, melainkan berdiri di menara pengintaian untuk membawa kegelisahan bangsa kepada Allah. Naskah menghubungkan posisi tersebut dengan peran gereja Indonesia sebagai penjaga nurani publik yang independen, reflektif, dan konstruktif.',
     highlights: [
@@ -51,11 +51,11 @@ export const publications: Publication[] = [
     author: null,
     pages: 8,
     fileSize: '237 KB',
-    pdf: '/assets/documents/gereja-di-persimpangan-kekuasaan.pdf',
+    pdf: '/Fornak-Indonesia/Fornak-Indonesia/assets/documents/gereja-di-persimpangan-kekuasaan.pdf',
     coverHeightAt480: 679,
-    cover: '/assets/images/sampul-digital-bonhoeffer.svg',
+    cover: '/Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-digital-bonhoeffer.svg',
     coverSrcSet:
-      '/assets/images/sampul-digital-bonhoeffer.svg 480w',
+      '/Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-digital-bonhoeffer.svg 480w',
     summary:
       'Refleksi ini membaca ulang teologi politik Dietrich Bonhoeffer untuk membedakan peran negara, individu Kristen, asosiasi kemanusiaan, dan gereja sebagai institusi. Naskah menawarkan kerangka untuk menilai kapan gereja perlu berbicara, bagaimana merespons ketidakadilan, serta bahaya menjadi terlalu pasif atau terlalu melebur dengan politik praktis.',
     highlights: [
@@ -75,10 +75,10 @@ export const publications: Publication[] = [
     author: 'Forum Nasionalisme Kristen',
     pages: 8,
     fileSize: '1,9 MB',
-    pdf: '/assets/documents/silaturahmi-kebangsaan-jawa-tengah-2023.pdf',
+    pdf: '/Fornak-Indonesia/Fornak-Indonesia/assets/documents/silaturahmi-kebangsaan-jawa-tengah-2023.pdf',
     coverHeightAt480: 679,
-    cover: '/assets/images/sampul-silaturahmi-kebangsaan-jawa-tengah-2023-900.jpg',
-    coverSrcSet: '/assets/images/sampul-silaturahmi-kebangsaan-jawa-tengah-2023-480.jpg 480w, /assets/images/sampul-silaturahmi-kebangsaan-jawa-tengah-2023-900.jpg 900w',
+    cover: '/Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-silaturahmi-kebangsaan-jawa-tengah-2023-900.jpg',
+    coverSrcSet: '/Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-silaturahmi-kebangsaan-jawa-tengah-2023-480.jpg 480w, /Fornak-Indonesia/Fornak-Indonesia/assets/images/sampul-silaturahmi-kebangsaan-jawa-tengah-2023-900.jpg 900w',
     summary: 'Laporan FORNAK tentang silaturahmi umat Kristen di Jawa Tengah pada 2023. Buku ini memuat sambutan ketua umum, rangkaian kegiatan, data kehadiran, serta laporan keuangan.',
     highlights: [
       'Sambutan Hanny Setiawan dan catatan silaturahmi bersama pelajar dan mahasiswa.',

@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "label": "Sitemap, seluruh rute dan tautan internal",
+      "pass": true
+    },
+    {
+      "label": "Menu papan ketik, pencarian global dan pilihan program",
+      "pass": true
+    },
+    {
+      "label": "Foto, panel misi dan rak publikasi dengan keyboard",
+      "pass": true
+    },
+    {
+      "label": "Jurnal, filter topik, status kosong, artikel, navigasi kembali",
+      "pass": true
+    },
+    {
+      "label": "Tiga PDF, unduhan asli, halaman, zoom dan pencarian",
+      "pass": true
+    },
+    {
+      "label": "Filter galeri, lightbox, zoom, panah dan Escape",
+      "pass": true
+    },
+    {
+      "label": "Menu ponsel, chatbot, WhatsApp dan Instagram",
+      "pass": true
+    },
+    {
+      "label": "Opini lengkap, sumber asli dan bahasa antarmuka",
+      "pass": true
+    },
+    {
+      "label": "Formulir minat, ukuran foto arsip dan bentang buku",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "audits": {
+    "pencarian": [],
+    "artikel": [],
+    "pembaca": [],
+    "lightbox": [],
+    "asisten": [],
+    "opini": []
+  }
+}

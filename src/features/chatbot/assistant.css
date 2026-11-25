@@ -1,0 +1,229 @@
+.fornak-assistant {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 90;
+}
+
+.assistant-toggle {
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 999px;
+  color: #fff;
+  background: #132943;
+  box-shadow: 0 10px 28px rgba(19, 41, 67, 0.24);
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.assistant-toggle svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.assistant-panel {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 12px);
+  display: grid;
+  width: min(380px, calc(100vw - 32px));
+  max-height: min(620px, calc(100dvh - 110px));
+  overflow: hidden;
+  border: 1px solid #d9dad5;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 28px 80px rgba(23, 25, 29, 0.24);
+}
+
+.assistant-panel > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.2rem;
+  color: #fff;
+  background: #132943;
+}
+
+.assistant-panel > header div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.assistant-kicker {
+  color: #e7b75f;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.assistant-panel > header strong {
+  max-width: 260px;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.assistant-panel > header span {
+  color: #e7b75f;
+}
+
+.assistant-panel > header button {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 50%;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.assistant-messages {
+  display: flex;
+  min-height: 160px;
+  max-height: 280px;
+  flex-direction: column;
+  gap: 0.75rem;
+  overflow-y: auto;
+  padding: 1.1rem 1.2rem;
+  background: #fff;
+}
+
+.assistant-messages p {
+  max-width: 86%;
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #e1e2de;
+  border-radius: 18px 18px 18px 5px;
+  color: #34373c;
+  background: #fff;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.assistant-messages p.user {
+  align-self: flex-end;
+  border-color: #132943;
+  border-radius: 18px 18px 5px 18px;
+  color: #fff;
+  background: #132943;
+}
+
+.assistant-quick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.85rem 1.2rem 0;
+}
+
+.assistant-quick button {
+  min-height: 36px;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #cfcfca;
+  border-radius: 999px;
+  color: #34373c;
+  background: #fff;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.assistant-panel form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  padding: 1rem 1.2rem;
+}
+
+.assistant-panel form input {
+  min-width: 0;
+  min-height: 44px;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #cfcfca;
+  border-radius: 14px;
+  font: inherit;
+}
+
+.assistant-panel form button {
+  min-width: 68px;
+  border: 0;
+  border-radius: 14px;
+  color: #fff;
+  background: #c51c2b;
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.assistant-panel > footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.85rem 1.2rem;
+  border-top: 1px solid #e7e7e3;
+  background: #fafaf7;
+}
+
+.assistant-panel > footer > span {
+  color: #62656b;
+  font-size: 0.8rem;
+}
+
+.assistant-admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.65rem 0.8rem;
+  border-radius: 999px;
+  color: #fff;
+  background: #147d4f;
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.assistant-admin svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (max-width: 540px) {
+  .fornak-assistant {
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .assistant-toggle {
+    min-height: 48px;
+    padding-inline: 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  .assistant-panel {
+    right: 0;
+    width: min(360px, calc(100vw - 24px));
+  }
+
+  .assistant-panel > footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .assistant-admin {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.fornak-assistant.is-open .assistant-toggle {
+  display: none;
+}

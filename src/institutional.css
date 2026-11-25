@@ -1,0 +1,101 @@
+:root {
+  --brand:#b70e24; --wine:#780d23; --deep:#530b19; --paper:#fcfbf8; --warm:#f7f4ee; --rule:#dedad3; --dark:#17191d;
+  --minimal-red:var(--brand); --minimal-paper:var(--warm); --minimal-ink:var(--dark); --font-sans:Manrope,Arial,sans-serif;
+  --muted:#54565b; --gold:#825b28;
+}
+body {font-family:var(--font-sans)}
+.header-inner {gap:clamp(12px,2vw,32px)}
+.site-header.compact .header-inner {min-height:70px}
+.desktop-nav {margin-left:auto}
+.site-search-trigger,.site-search-dialog header button {width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--rule);border-radius:50%;color:var(--wine);background:white;cursor:pointer}
+.site-search-dialog {width:min(600px,92vw);max-height:80dvh;border:0;border-top:5px solid var(--brand);padding:0;background:var(--paper);color:var(--dark);border-radius:12px;overscroll-behavior:contain;margin:auto}
+.site-search-dialog::backdrop,.lightbox::backdrop {background:#17191dc9}
+.site-search-dialog>div {padding:clamp(18px,4vw,32px)}
+.site-search-dialog header {display:flex;align-items:center;justify-content:space-between}
+.site-search-dialog h2 {font:600 2rem var(--font-editorial);margin:0}
+.site-search-dialog input {width:100%;padding:14px;margin-top:18px;border:1px solid #8c8783;background:white;color:var(--dark);font:inherit}
+.site-search-dialog ul {list-style:none;padding:0;margin:0}
+.site-search-dialog li a {display:flex;flex-direction:column;gap:4px;padding:10px 0;border-top:1px solid var(--rule);color:var(--dark);text-decoration:none}
+.site-search-dialog li small {color:var(--wine)}
+a:focus-visible,button:focus-visible,summary:focus-visible {outline:3px solid #ad6024;outline-offset:3px}
+.red-edition.minimal-hero {background:var(--wine);padding-block:clamp(44px,6vw,96px)}
+.red-edition::before {width:120%;height:80%;left:-8%;right:auto;top:77%;border-radius:50%;background:#530b193b;box-shadow:none}
+.spread-images .spread-main,.spread-preview {border-radius:4px;box-shadow:none}
+.red-edition h1 {line-height:1.05}
+.minimal-button,.button,.desktop-nav>a[href="/kontak"] {border-radius:6px}
+.minimal-missions,.home-insights,.minimal-programs,.journal-page {background:var(--paper)}
+.minimal-mission-list {gap:clamp(18px,3vw,46px)}
+.minimal-mission,.minimal-mission+.minimal-mission {padding:20px 0;border:0;border-top:2px solid var(--wine);border-radius:0;background:transparent;box-shadow:none}
+.mission-index {display:block;color:var(--wine);font:500 2.8rem/1 var(--font-editorial)}
+.program-index {display:flex;flex-wrap:wrap;border-bottom:1px solid var(--rule);gap:6px;padding-bottom:14px}
+.program-index button,.site-search-dialog>div>button {font:600 .9rem var(--font-sans);padding:10px 13px;background:var(--warm);color:var(--dark);border:1px solid var(--rule);border-radius:4px;cursor:pointer}
+.program-index button[aria-pressed="true"] {color:white;background:var(--wine);text-decoration:underline;text-underline-offset:4px}
+#program-detail {display:flex;gap:22px;align-items:start;padding:24px 0;min-height:185px}
+#program-detail>span {color:var(--wine);font:500 3rem var(--font-editorial)}
+#program-detail h3 {margin:6px 0;font-size:1.4rem}
+#program-detail p {margin:0;line-height:1.65}
+#program-detail>div,.nav-popover,.journal-card,.lightbox[open] {animation:ink-in .25s ease-out}
+@keyframes ink-in {from{opacity:.55;transform:translateY(3px)}to{opacity:1;transform:none}}
+.editorial-cover {display:block;width:100%;height:auto;aspect-ratio:2.5;overflow:hidden;color:#f0c8a5;--tint:#780d23}
+.cover-paper {fill:var(--tint)}
+.motif-archive {--tint:#eadcca;color:#805844}.motif-horizon {--tint:#f1e7cf;color:#7b433f}
+.motif-islands {--tint:#304c46;color:#b8c9a8}.motif-waves {--tint:#e4dfcc;color:#665749}.motif-grid {--tint:#26343e;color:#c5ac84}
+.insight-grid {grid-template-columns:1.4fr 1fr;grid-template-rows:auto auto;align-items:stretch}
+.insight-grid article,.minimal-home .insight-grid article:first-child {background:transparent;color:var(--dark);padding:12px 0;border:0;border-radius:0;border-top:1px solid var(--rule)}
+.insight-grid article:first-child {grid-row:span 2}
+.insight-grid article:first-child :is(h3,a,p,small){color:inherit}
+.insight-grid article h3 {font:600 clamp(23px,2.3vw,36px)/1.12 var(--font-editorial);margin:12px 0}
+.insight-grid article .editorial-cover {margin-bottom:18px}
+.insight-grid article:not(:first-child) .editorial-cover {float:right;width:28%;margin:0 0 12px 16px;aspect-ratio:1.2;height:auto}
+.insight-grid article:first-child .minimal-meta {color:var(--wine)}
+.journal-hero {background:var(--warm);border-bottom:4px double var(--wine)}
+.journal-hero h1 {font:600 clamp(44px,7vw,92px)/1 var(--font-editorial);letter-spacing:-.055em}
+.journal-featured__grid {gap:28px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.journal-card,.journal-card--lead {background:transparent;border:0;border-top:1px solid var(--rule);border-radius:0;color:var(--dark);padding:14px 0;gap:8px}
+.journal-card--lead {grid-column:span 2}
+.journal-card .editorial-cover {height:135px;margin-bottom:10px}
+.journal-card--lead .editorial-cover {height:clamp(155px,20vw,280px)}
+.journal-card--lead h3,.journal-card--lead h3 a,.journal-card--lead .journal-card__footer a {color:var(--dark)}
+.journal-card--lead .journal-card__subtitle {color:var(--wine)}
+.journal-card--lead>p:not(.journal-card__subtitle),.journal-card .journal-card__meta,.journal-card .journal-card__footer {color:#4f5155}
+.journal-tools {align-items:end}
+.footer-bottom>span {color:#dedad3}
+.minimal-impact__header>p,.minimal-impact__grid dd,.minimal-impact__source {color:white}
+.source-note,.section-heading>p:not(.eyebrow),.library-topline,.gallery-count {color:#53565b}
+.section-dark .section-heading>p:not(.eyebrow) {color:#e5dfd8}
+.lightbox {width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;border:0;color:white}
+.lightbox-image {overflow:auto;max-height:70dvh;text-align:center}
+.lightbox-image img {display:block;margin:auto;max-width:100%;max-height:68dvh;object-fit:contain}
+.lightbox-image.zoomed img {max-width:none;max-height:none;min-width:135%;height:auto}
+.gallery-tile {box-shadow:none;border-radius:6px}
+.gallery-tile:hover img {transform:none}
+.library-entry figure img,.publication-hero figure img {object-fit:contain}
+.report-entry,.study-topics article {border-radius:6px}
+@media(max-width:1088px){.site-search-trigger{margin-left:auto}}
+@media(max-width:760px){
+  .insight-grid,.journal-featured__grid{grid-template-columns:minmax(0,1fr)}
+  .journal-card--lead,.insight-grid article:first-child {grid-column:auto;grid-row:auto}
+  .compact .header-inner,.site-header .header-inner{min-height:68px}
+  .header-inner {gap:8px}
+  .site-footer{padding-bottom:66px}
+}
+@media(prefers-reduced-motion:reduce){#program-detail>div,.nav-popover,.journal-card,.lightbox[open]{animation:none}}
+
+
+.journal-list__item>div {color:#54565b}
+.hero-archive img,.archive-spread img {font-size:0}
+@media(max-width:760px){.journal-hero__grid {gap:20px}.journal-hero__intro p {margin-bottom:12px}.journal-section-heading {margin-bottom:16px}}
+
+.page-hero.section-dark {padding:0;background:var(--warm);border-bottom:1px solid var(--rule)}
+.page-hero .eyebrow {color:var(--wine);background:transparent;border:0}
+.page-hero__inner {position:relative}
+.page-hero.with-art .page-hero__inner {padding-right:32%}
+.page-hero-art {position:absolute;right:2%;top:50%;transform:translateY(-50%);width:25%;max-height:85%;display:grid;place-items:center}
+.identity-seal {width:clamp(120px,13vw,200px);height:auto}
+.cover-shelf {display:flex;align-items:end;justify-content:center;width:100%}
+.cover-shelf img {width:42%;height:auto;box-shadow:4px 8px 12px #21181924}
+.cover-shelf img:first-child {transform:rotate(-8deg) translate(8%,0)}
+.cover-shelf img:last-child {transform:rotate(4deg) translate(-4%,4%)}
+.study-topics article {border:0;border-top:2px solid var(--wine);border-radius:0}
+.page-hero-art .editorial-cover {border-top:4px solid var(--wine)}
+@media(max-width:760px){.page-hero.with-art .page-hero__inner {padding-right:0}.page-hero-art {position:static;transform:none;width:100%;margin-top:16px;justify-items:start}.page-hero-art .identity-seal{width:80px}.cover-shelf{width:165px}.page-hero-art .editorial-cover{width:165px;height:60px}.page-hero__inner {padding-block:36px}}

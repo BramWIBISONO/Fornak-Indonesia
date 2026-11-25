@@ -1,0 +1,242 @@
+[
+  {
+    "width": 320,
+    "locale": "id",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "id",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "id",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "id",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "id",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "en",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-CN",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-CN",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-CN",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-CN",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-CN",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-TW",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-TW",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-TW",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-TW",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "locale": "zh-TW",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "id",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "id",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "id",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "id",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "id",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "en",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-CN",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-CN",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-CN",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-CN",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-CN",
+    "route": "/kontak",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-TW",
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-TW",
+    "route": "/tentang",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-TW",
+    "route": "/publikasi",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-TW",
+    "route": "/jurnal",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "locale": "zh-TW",
+    "route": "/kontak",
+    "overflow": false
+  }
+]

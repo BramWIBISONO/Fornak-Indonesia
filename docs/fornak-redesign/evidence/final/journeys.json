@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "label": "Sitemap, seluruh rute dan tautan internal",
+      "pass": true
+    },
+    {
+      "label": "Menu papan ketik, pencarian global dan pilihan program",
+      "pass": true
+    },
+    {
+      "label": "Jurnal, filter topik, status kosong, artikel, navigasi kembali",
+      "pass": false,
+      "error": "locator.selectOption: Timeout 5500ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Topik', { exact: true })\u001b[22m\n"
+    },
+    {
+      "label": "Tiga PDF, unduhan asli, halaman, zoom dan pencarian",
+      "pass": false,
+      "error": "locator.waitFor: Timeout 5500ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Baca teks halaman 2') to be visible\u001b[22m\n"
+    },
+    {
+      "label": "Filter galeri, lightbox, zoom, panah dan Escape",
+      "pass": true
+    },
+    {
+      "label": "Menu ponsel, chatbot, WhatsApp dan Instagram",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "audits": {
+    "pencarian": [],
+    "lightbox": [
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": [
+          [
+            ".lightbox-image"
+          ]
+        ]
+      }
+    ],
+    "asisten": [
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": [
+          [
+            ".assistant-messages"
+          ]
+        ]
+      }
+    ]
+  }
+}

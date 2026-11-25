@@ -1,0 +1,117 @@
+{
+  "records": [
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    }
+  ],
+  "errors": []
+}

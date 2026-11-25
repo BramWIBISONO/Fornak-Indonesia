@@ -1,0 +1,565 @@
+{
+  "records": [
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 360,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 430,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 1280,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 1920,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/tentang",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/jurnal",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/pemikiran",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/publikasi",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kegiatan",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/galeri",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    },
+    {
+      "route": "/kontak",
+      "width": 2560,
+      "overflow": false,
+      "broken": [],
+      "violations": []
+    }
+  ],
+  "errors": []
+}

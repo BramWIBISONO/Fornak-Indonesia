@@ -1,0 +1,122 @@
+.site-header { border-top:4px solid #ba1022 }
+.desktop-nav > a[href="/kontak"] { padding:.6rem 1.15rem; border-radius:999px; background:#ac1022; color:white }
+.desktop-nav > a[href="/kontak"]::after { display:none }
+.minimal-hero.red-edition {
+  min-height: clamp(620px, 78vh, 860px);
+  display:flex;
+  align-items:stretch;
+  position:relative; isolation:isolate; overflow:hidden;
+  color:#fff;
+  background:linear-gradient(110deg,#7d0c20 0%,#a40d27 52%,#311018 100%);
+  padding-block:0;
+}
+.red-edition::before {
+  content:""; position:absolute; z-index:-1; width:52vw; height:52vw; left:-31vw; top:-33vw;
+  border:1px solid #ffffff18; border-radius:50%; box-shadow:0 0 0 5vw #ffffff05,0 0 0 12vw #ffffff03; pointer-events:none;
+}
+.red-edition .minimal-hero__grid {
+  width:100%;
+  max-width:none;
+  min-height:inherit;
+  grid-template-columns:minmax(0,42%) minmax(0,58%);
+  gap:0;
+  align-items:center;
+  position:relative;
+  padding:0;
+}
+.red-edition .minimal-hero__copy {
+  grid-column:1;
+  width:min(560px,calc(100% - clamp(48px,7vw,112px)));
+  justify-self:end;
+  position:relative;
+  z-index:4;
+  padding:clamp(52px,7vw,96px) 0;
+}
+.red-edition .minimal-kicker { color:#fff0da; letter-spacing:.13em; font-size:.74rem }
+.red-edition h1 { max-width:8ch; margin-block:24px; color:white; font-size:clamp(58px,5.7vw,96px); letter-spacing:-.065em; line-height:.94 }
+.red-edition h1 span { margin-top:.12em; color:#fff3db; font:italic 500 1.02em/1.02 var(--font-editorial); letter-spacing:-.047em }
+.red-edition .minimal-lead { color:#fff3f2; max-width:43ch; font-size:clamp(16px,1.15vw,19px); }
+.red-edition .minimal-button--primary { background:#fff9ee; color:#880c20; border-color:transparent }
+.red-edition .minimal-button--primary:hover { background:white; color:#65091a }
+.red-edition .minimal-text-link { color:white }
+.archive-spread {
+  grid-column:2;
+  align-self:stretch;
+  min-width:0;
+  height:100%;
+  min-height:inherit;
+  margin:0;
+  padding:0;
+  position:relative;
+  z-index:2;
+}
+.archive-spread::before {
+  content:"";
+  position:absolute;
+  z-index:3;
+  inset:0 auto 0 0;
+  width:22%;
+  background:linear-gradient(90deg,#a40d27 0%,rgba(164,13,39,.78) 26%,rgba(164,13,39,0) 100%);
+  pointer-events:none;
+}
+.spread-images { display:block; height:100%; position:relative; }
+.spread-images > * { min-height:0; min-width:0 }
+.spread-images img { display:block; width:100%; height:100%; object-fit:cover }
+.spread-images .spread-main { border-radius:0; object-position:50% 44%; box-shadow:none; animation:photo-appear .32s ease-out }
+.spread-preview { display:none }
+.archive-spread::after {
+  content:"";
+  position:absolute;
+  z-index:2;
+  inset:auto 0 0;
+  height:38%;
+  background:linear-gradient(0deg,rgba(18,7,10,.82),rgba(18,7,10,0));
+  pointer-events:none;
+}
+.archive-spread figcaption { position:absolute; z-index:4; left:clamp(48px,5vw,88px); right:clamp(28px,3vw,54px); bottom:clamp(28px,4vw,58px); display:flex; align-items:end; justify-content:space-between; gap:20px; margin:0; border:0; padding:0; color:white }
+.archive-spread figcaption small { display:block; color:#ffdfda; font:650 .72rem/1.4 var(--font-sans); text-transform:uppercase; letter-spacing:.12em }
+.archive-spread figcaption strong { display:block; margin-top:4px; font:600 1.05rem/1.35 var(--font-display) }
+.spread-controls { display:flex; gap:6px }
+.spread-controls button { display:grid; place-items:center; height:44px; width:44px; color:#fff; background:#800d20; border:1px solid #ffffff70; border-radius:50%; cursor:pointer }
+.spread-controls svg { width:18px }
+.spread-controls button:hover { background:#620b1a }
+.red-edition :focus-visible { outline:3px solid #ffdf9d; outline-offset:3px }
+.home-desk { background:#fff8f1; border-bottom:1px solid #e5cfc9 }
+.home-desk__grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)) }
+.home-desk a { min-width:0; display:flex; align-items:center; gap:14px; padding:24px clamp(12px,2vw,36px); color:#41101b; text-decoration:none; border-inline-start:1px solid #e5cfc9 }
+.home-desk a:last-child { border-inline-end:1px solid #e5cfc9 }
+.home-desk a>svg:first-child { color:#a80d24; flex-shrink:0; width:24px }
+.home-desk a>svg:last-child { width:16px; margin-left:auto; transition:transform .2s }
+.home-desk a:hover { background:#ffede6 }
+.home-desk a:hover>svg:last-child { transform:translateX(3px) }
+.home-desk strong,.home-desk small { display:block }
+.home-desk small { margin-top:3px; color:#715457; line-height:1.4 }
+.minimal-missions { background:#fff3ee; border-color:#f0d9d0 }
+.mission-intro {display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 32px}
+.mission-intro h2 {margin:0 0 18px}
+.mission-intro figure {margin:0}
+.mission-intro img {display:block;width:202px;max-width:100%;height:auto;border-radius:14px}
+.mission-intro figcaption {margin-top:6px;color:#70545a;font-size:.78rem}
+#program-kerja {scroll-margin-top:100px}
+.minimal-missions .mission-icon { box-sizing:content-box; background:#fce2de; border-radius:14px; padding:11px; width:26px; height:26px }
+.minimal-home .insight-grid article:first-child { background:linear-gradient(140deg,#9e1029,#620e22) }
+.minimal-home .connect-strip { background:#8e1027; color:white }
+.connect-strip :is(h2,.minimal-kicker) { color:white }
+.connect-strip .minimal-button { color:#871226; background:#fff7ee }
+.assistant-toggle { background:#a70e26 }
+@keyframes photo-appear { from { opacity:.75 } to { opacity:1 } }
+@media(max-width:900px) {
+  .red-edition .minimal-hero__grid {grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .red-edition .minimal-hero__copy,.archive-spread {grid-column:auto}
+  .spread-images {grid-template-columns:4fr 1fr}
+}
+@media(max-width:760px) {
+  .red-edition .minimal-hero__grid {grid-template-columns:1fr;gap:30px}
+  .red-edition h1 {font-size:clamp(44px,10.2vw,64px)}
+  .archive-spread {padding:0}
+  .spread-images {height:clamp(230px,60vw,330px);grid-template-columns:3fr 1fr}
+  .home-desk__grid {grid-template-columns:1fr}
+  .home-desk a,.home-desk a:last-child {border-inline:0;padding:14px 4px}
+  .home-desk a+a {border-top:1px solid #e5cfc9}
+}
+@media(prefers-reduced-motion:reduce) { .spread-images .spread-main {animation:none} }

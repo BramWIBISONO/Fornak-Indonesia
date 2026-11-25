@@ -1,0 +1,39 @@
+{
+  "preview": {
+    "url": "http://192.168.137.1:3000/",
+    "headline": "Iman yang\nbekerja untuk\nIndonesia."
+  },
+  "visionChecked": false,
+  "nav": [
+    "IPT 24/7",
+    "About Us",
+    "Ministries",
+    "Services",
+    "Events",
+    "El-Bethel Music",
+    "Media",
+    "Give"
+  ],
+  "controls": [
+    [
+      "DIV",
+      "elementor-repeater-item-3c88976 swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next",
+      null
+    ],
+    [
+      "DIV",
+      "elementor-repeater-item-3c88976 swiper-slide swiper-slide-next",
+      null
+    ],
+    [
+      "DIV",
+      "elementor-repeater-item-3c88976 swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next",
+      null
+    ],
+    [
+      "DIV",
+      "elementor-swiper-button elementor-swiper-button-next",
+      "Next slide"
+    ]
+  ]
+}

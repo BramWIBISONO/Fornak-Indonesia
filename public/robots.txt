@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Tambahkan baris Sitemap setelah domain produksi dikonfirmasi.

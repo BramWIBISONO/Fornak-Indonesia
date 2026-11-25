@@ -1,0 +1,80 @@
+[
+  {
+    "route": "/",
+    "settings": "mobile",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/137.0.0.0 Safari/537.36",
+    "version": "13.6.0",
+    "score": {
+      "performance": 73,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 2786.88605,
+    "cls": 0,
+    "tbt": 850.0000000000002,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "total-blocking-time",
+      "max-potential-fid",
+      "interactive",
+      "mainthread-work-breakdown",
+      "unused-css-rules",
+      "unused-javascript",
+      "forced-reflow-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/jurnal",
+    "settings": "mobile",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/137.0.0.0 Safari/537.36",
+    "version": "13.6.0",
+    "score": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 2403.5322000000006,
+    "cls": 0.005296369576288428,
+    "tbt": 328,
+    "failed": [
+      "first-contentful-paint",
+      "total-blocking-time",
+      "max-potential-fid",
+      "unused-css-rules",
+      "unused-javascript",
+      "forced-reflow-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/publikasi",
+    "settings": "mobile",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/137.0.0.0 Safari/537.36",
+    "version": "13.6.0",
+    "score": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 2406.085,
+    "cls": 0.0017332444265623194,
+    "tbt": 35.5,
+    "failed": [
+      "first-contentful-paint",
+      "unused-css-rules",
+      "unused-javascript",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    [
+      "VIDEO",
+      "elementor-background-video-hosted elementor-html5-video",
+      "",
+      null,
+      ""
+    ],
+    [
+      "VIDEO",
+      "wp-video-shortcode",
+      "video-74-1_html5",
+      null,
+      ""
+    ],
+    [
+      "BUTTON",
+      "",
+      "",
+      "Putar",
+      ""
+    ],
+    [
+      "BUTTON",
+      "",
+      "",
+      "Bisu",
+      ""
+    ],
+    [
+      "BUTTON",
+      "",
+      "",
+      "Selayar penuh",
+      ""
+    ],
+    [
+      "INPUT",
+      "vm-radio",
+      "ehop-vm-reset",
+      "Tutup kedua panel",
+      ""
+    ],
+    [
+      "INPUT",
+      "vm-radio",
+      "ehop-vm-visi",
+      "Buka Visi",
+      ""
+    ],
+    [
+      "INPUT",
+      "vm-radio",
+      "ehop-vm-misi",
+      "Buka Misi",
+      ""
+    ]
+  ],
+  "styles": [
+    {
+      "title": "Visi",
+      "size": "56px",
+      "font": "Arial, Helvetica, sans-serif",
+      "width": 80
+    },
+    {
+      "title": "Visi kami",
+      "size": "12px",
+      "font": "Arial, Helvetica, sans-serif",
+      "width": 0
+    },
+    {
+      "title": "Misi",
+      "size": "56px",
+      "font": "Arial, Helvetica, sans-serif",
+      "width": 91
+    },
+    {
+      "title": "Misi kami",
+      "size": "12px",
+      "font": "Arial, Helvetica, sans-serif",
+      "width": 0
+    },
+    {
+      "title": "Our Services",
+      "size": "35px",
+      "font": "Poppins, sans-serif",
+      "width": 1120
+    },
+    {
+      "title": "Our Products",
+      "size": "40px",
+      "font": "Poppins, sans-serif",
+      "width": 1100
+    },
+    {
+      "title": "IDR 150k",
+      "size": "30px",
+      "font": "Poppins, sans-serif",
+      "width": 490
+    },
+    {
+      "title": "Until Every Island Sings T-shirt",
+      "size": "25px",
+      "font": "Poppins, sans-serif",
+      "width": 510
+    },
+    {
+      "title": "IDR 150k",
+      "size": "30px",
+      "font": "Poppins, sans-serif",
+      "width": 490
+    }
+  ],
+  "carousel": "Kontrol tersedia, perubahan belum terkonfirmasi",
+  "error": "locator.getAttribute: Timeout 4500ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Read More About Us' }).first()\u001b[22m\n"
+}

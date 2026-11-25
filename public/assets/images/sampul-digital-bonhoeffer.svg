@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="679" viewBox="0 0 480 679" role="img" aria-labelledby="title">
+<title id="title">Gereja di Persimpangan Kekuasaan</title>
+<defs>
+  <pattern id="rules" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 6L6 0" stroke="#c69b75" opacity=".18" stroke-width="1"/></pattern>
+  <linearGradient id="spine"><stop stop-color="#2c0a14"/><stop offset=".11" stop-color="#571426"/><stop offset=".16" stop-color="#8e3046"/><stop offset=".2" stop-color="#681a30"/><stop offset="1" stop-color="#55152a"/></linearGradient>
+</defs>
+<rect width="480" height="679" fill="url(#spine)"/><rect x="34" y="28" width="423" height="622" fill="none" stroke="#d3a980"/>
+<g fill="#ffe9c9" font-family="Georgia, serif">
+  <text x="63" y="89" font-family="Arial,sans-serif" font-size="15" letter-spacing="4">KAJIAN FORNAK</text>
+  <path d="M62 111h358" stroke="#d3a980"/>
+  <text x="60" y="185" font-size="54">Gereja di</text><text x="60" y="243" font-size="52">Persimpangan</text><text x="60" y="304" font-size="56" font-style="italic">Kekuasaan</text>
+  <text x="63" y="350" font-size="20">Teologi Politik Bonhoeffer dan</text><text x="63" y="378" font-size="20">Problem Politik Hari Ini</text>
+</g>
+<g stroke="#edcc9f" fill="url(#rules)" stroke-width="2">
+ <path d="M91 571V502a46 46 0 0 1 92 0v69h-15v-69a31 31 0 0 0-62 0v69z"/>
+ <path d="M183 571v-93a60 60 0 0 1 120 0v93h-15v-93a45 45 0 0 0-90 0v93z"/>
+ <path d="M303 571v-69a46 46 0 0 1 92 0v69h-15v-69a31 31 0 0 0-62 0v69z"/>
+ <path d="M69 575h350m-350 6h350m-350 6h350" fill="none"/>
+</g><text x="64" y="624" fill="#ffe9c9" font-family="Arial,sans-serif" font-size="13" letter-spacing="2.3">REFLEKSI TEOLOGIS-POLITIS</text></svg>

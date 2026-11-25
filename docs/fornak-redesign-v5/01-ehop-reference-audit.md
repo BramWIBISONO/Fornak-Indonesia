@@ -1,0 +1,7 @@
+# Audit EHOP Indonesia
+
+Beranda dan halaman About EHOP diperiksa di Chrome. Pengambilan beranda mencakup lebar 390, 768, 1280, 1440 dan 1920 piksel. Dua video terdeteksi. Video pembuka dikonfigurasi untuk putar otomatis tanpa suara. Foto layar awal desktop menunjukkan latar yang masih sangat terang saat media belum siap. Setelah muat dan gulir, komposisi merah gelap, video, tipografi putih, panel visi dan misi, panggung layanan, produk, kegiatan, sumber bacaan dan kemitraan tampak berurutan. [Situs referensi](https://ehopindonesia.com/) · [Tampilan penuh setelah pemuatan](bukti/ehop-loaded.jpg)
+
+Menu desktop memakai tautan berkelompok. Panel visi dan misi memiliki kontrol radio dan label. Layanan menyediakan kontrol sebelumnya/berikutnya. Pengukuran gaya di desktop menemukan judul layanan Poppins 35 px dengan area 1120 px serta judul produk 40 px. Pada sampel mobile, beberapa teks turun hingga 9 px. Kontrol yang terdeteksi melalui DOM dan hasil percobaan interaksi dicatat terpisah. [Gaya dan kontrol](bukti/ehop-interaksi.json) · [Percobaan interaksi](bukti/reference-actions.json)
+
+Prinsip yang dipakai di FORNAK adalah membuka dengan satu media dominan, berganti tempo antara kisah dan penjelajahan, serta menutup dengan jalur kontak. Pengalaman awal EHOP saat video belum siap menjadi alasan memakai foto lokal dengan latar dan kontras yang stabil. [Tangkapan awal desktop](bukti/ehop-hero-1440.jpg) · [Tangkapan ponsel](bukti/ehop-390.jpg)

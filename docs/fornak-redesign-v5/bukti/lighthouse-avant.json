@@ -1,0 +1,79 @@
+[
+  {
+    "route": "/",
+    "settings": "mobile",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/137.0.0.0 Safari/537.36",
+    "version": "13.6.0",
+    "score": {
+      "performance": 89,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 3308.99265,
+    "cls": 0.0010569092765820719,
+    "tbt": 91,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "unsized-images",
+      "unused-css-rules",
+      "unused-javascript",
+      "image-delivery-insight",
+      "lcp-discovery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/jurnal",
+    "settings": "mobile",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/137.0.0.0 Safari/537.36",
+    "version": "13.6.0",
+    "score": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 3007.6161,
+    "cls": 0,
+    "tbt": 45,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "unused-css-rules",
+      "unused-javascript",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/publikasi",
+    "settings": "mobile",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/137.0.0.0 Safari/537.36",
+    "version": "13.6.0",
+    "score": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 2104.7437,
+    "cls": 0.30995220512120164,
+    "tbt": 9,
+    "failed": [
+      "first-contentful-paint",
+      "cumulative-layout-shift",
+      "layout-shifts",
+      "unsized-images",
+      "unused-css-rules",
+      "unused-javascript",
+      "cls-culprits-insight",
+      "image-delivery-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

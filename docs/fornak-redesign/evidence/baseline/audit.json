@@ -1,0 +1,1189 @@
+{
+  "records": [
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".minimal-impact__header > p"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #f4cacd, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(2) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(3) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(4) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tentang",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".source-note"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".section-heading > p:nth-child(3)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/jurnal",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".journal-card:nth-child(2) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(2) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(2) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(3) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(3) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(3) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(4) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(4) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(4) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(5) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(5) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(5) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(6) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(6) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(6) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(1) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(1) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(2) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(2) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(3) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(3) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(4) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(4) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(5) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(5) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(6) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(6) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(7) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(7) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(8) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(8) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(9) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(9) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(10) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(10) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(11) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(11) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(12) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(12) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(13) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(13) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(14) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(14) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(15) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(15) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(16) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(16) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(17) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(17) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(18) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(18) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pemikiran",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/publikasi",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "span[role=\"status\"]"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 10.2pt (13.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".library-topline > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 10.2pt (13.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/kegiatan",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/galeri",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "nodes": [
+            {
+              "target": [
+                ".category-chips"
+              ],
+              "reason": "Fix any of the following:\n  Element has children which are not allowed: button"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".gallery-count"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 11.0pt (14.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/kontak",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".verification-badge"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #059669, background color: #ecfdf5, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".minimal-impact__header > p"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.81 (foreground color: #f4cacd, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(2) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(3) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(4) > dd"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #f6d4d6, background color: #ce101b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/tentang",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".source-note"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".section-heading > p:nth-child(3)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/jurnal",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".journal-card:nth-child(2) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(2) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(2) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(3) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(3) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(3) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(4) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(4) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(4) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(5) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(5) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(5) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(6) > .journal-card__meta > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(6) > .journal-card__meta > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-card:nth-child(6) > .journal-card__footer > span"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777a80, background color: #fefefd, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(1) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(1) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(2) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(2) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(3) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(3) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(4) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(4) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(5) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(5) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(6) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(6) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(7) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(7) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(8) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(8) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(9) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(9) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(10) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(10) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(11) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(11) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(12) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(12) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(13) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(13) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(14) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(14) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(15) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(15) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(16) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(16) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(17) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(17) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(18) > div > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".journal-list__item:nth-child(18) > div > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #777a80, background color: #ffffff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pemikiran",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/publikasi",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "span[role=\"status\"]"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 10.2pt (13.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".library-topline > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 10.2pt (13.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/kegiatan",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/galeri",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "nodes": [
+            {
+              "target": [
+                ".category-chips"
+              ],
+              "reason": "Fix any of the following:\n  Element has children which are not allowed: button"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".gallery-count"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #64748b, background color: #f7f6f2, font size: 11.0pt (14.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/kontak",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".verification-badge"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #059669, background color: #ecfdf5, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(1)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".footer-bottom > span:nth-child(2)"
+              ],
+              "reason": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #64748b, background color: #111318, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

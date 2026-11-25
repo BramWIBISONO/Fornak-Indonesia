@@ -1,0 +1,6 @@
+{
+  "name": "FORNAK Indonesia",
+  "description": "Forum Nasionalisme Kristen Indonesia - Bagi Tuhan, Bagi Indonesia. Wadah persatuan, pengabdian, dan pemikiran WNI Kristen untuk NKRI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

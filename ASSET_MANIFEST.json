@@ -1,0 +1,363 @@
+{
+  "generated": "2026-11-24",
+  "notes": [
+    "Original files remain unchanged in the project asset directory.",
+    "Exact duplicates are represented once in website output and retained in duplicate_sources.",
+    "No supplied image was verified as documentary activity photography; visual assets are official identity, statement, or infographic materials."
+  ],
+  "images": [
+    {
+      "slug": "identitas-resmi-fornak",
+      "category": "identitas",
+      "source": "WhatsApp Image 2026-11-24 at 4.25.17 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.25.17 PM (1).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.25.17 PM.jpeg",
+        "WhatsApp Image 2026-11-24 at 4.25.19 PM.jpeg"
+      ],
+      "dimensions": [
+        1440,
+        810
+      ],
+      "orientation": "landscape",
+      "sha256": "83a2f3553aee68a8ad3306ab86ec3abcec38c3cfb483a7cab1f121bc9dcf8d4b",
+      "website_copies": [
+        "/assets/images/identitas-resmi-fornak-720.webp",
+        "/assets/images/identitas-resmi-fornak-1440.webp"
+      ],
+      "alt": "Identitas FORNAK Indonesia, logo, semboyan, dan nomor keputusan Menteri Hukum dan HAM."
+    },
+    {
+      "slug": "profil-singkat-fornak",
+      "category": "profil",
+      "source": "WhatsApp Image 2026-11-24 at 4.25.17 PM (2).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.25.17 PM (2).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.25.17 PM (3).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.25.19 PM (1).jpeg"
+      ],
+      "dimensions": [
+        1440,
+        810
+      ],
+      "orientation": "landscape",
+      "sha256": "3a2c5e788cacbf7debb155a8e111b960cf5c2e1f3d81f81e040309401755fe5f",
+      "website_copies": [
+        "/assets/images/profil-singkat-fornak-720.webp",
+        "/assets/images/profil-singkat-fornak-1440.webp"
+      ],
+      "alt": "Penjelasan singkat tentang FORNAK Indonesia sebagai komunitas relawan Kerajaan Surga."
+    },
+    {
+      "slug": "program-fornak",
+      "category": "program",
+      "source": "WhatsApp Image 2026-11-24 at 4.25.18 PM.jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.25.18 PM.jpeg",
+        "WhatsApp Image 2026-11-24 at 4.25.20 PM (2).jpeg"
+      ],
+      "dimensions": [
+        1440,
+        810
+      ],
+      "orientation": "landscape",
+      "sha256": "11f226a5c680e071550cc6bca2ca4247acc39ca53d1e7d35ac98a0cb97c78c7d",
+      "website_copies": [
+        "/assets/images/program-fornak-720.webp",
+        "/assets/images/program-fornak-1440.webp"
+      ],
+      "alt": "Daftar program FORNAK dalam bidang kebangsaan, dialog, kepemimpinan, kajian, dan jejaring."
+    },
+    {
+      "slug": "misi-fornak",
+      "category": "misi",
+      "source": "WhatsApp Image 2026-11-24 at 4.25.20 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.25.20 PM (1).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.25.20 PM.jpeg"
+      ],
+      "dimensions": [
+        1440,
+        810
+      ],
+      "orientation": "landscape",
+      "sha256": "0a7b7b1889b4952946c90bbb75fd3a3d61a2b93744c49e5d40d30a202cd0665e",
+      "website_copies": [
+        "/assets/images/misi-fornak-720.webp",
+        "/assets/images/misi-fornak-1440.webp"
+      ],
+      "alt": "Tiga misi FORNAK: menyatukan, menyuarakan, dan menggerakkan WNI Kristen."
+    },
+    {
+      "slug": "indonesia-membutuhkan-keberanian-moral",
+      "category": "pernyataan",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.44 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.44 PM (1).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.27.44 PM.jpeg"
+      ],
+      "dimensions": [
+        1229,
+        1536
+      ],
+      "orientation": "portrait",
+      "sha256": "c3bad8e6ef1d94248b258771cc98377477cf401a661f06a8a8179a669a9ab6ed",
+      "website_copies": [
+        "/assets/images/indonesia-membutuhkan-keberanian-moral-640.webp",
+        "/assets/images/indonesia-membutuhkan-keberanian-moral-1120.webp"
+      ],
+      "alt": "Pernyataan FORNAK: Indonesia membutuhkan keberanian moral."
+    },
+    {
+      "slug": "gereja-suara-kenabian",
+      "category": "pernyataan",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.44 PM (2).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.44 PM (2).jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "f4b4b778fa8804de0b44ca1c57c4ced28c0bc2d8466f28c836d479e77cb9561b",
+      "website_copies": [
+        "/assets/images/gereja-suara-kenabian-640.webp",
+        "/assets/images/gereja-suara-kenabian-1120.webp"
+      ],
+      "alt": "Pernyataan FORNAK tentang suara kenabian gereja."
+    },
+    {
+      "slug": "enam-persoalan-bangsa",
+      "category": "infografik",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.45 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.45 PM (1).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.27.45 PM.jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "ccb1f45b22f6139d4c4cb9361fcd202e9395142893efd2b090d06e919f40c906",
+      "website_copies": [
+        "/assets/images/enam-persoalan-bangsa-640.webp",
+        "/assets/images/enam-persoalan-bangsa-1120.webp"
+      ],
+      "alt": "Enam persoalan bangsa yang dinilai perlu mendapat perhatian moral."
+    },
+    {
+      "slug": "mencintai-indonesia-kritis",
+      "category": "pernyataan",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.45 PM (2).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.45 PM (2).jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "861b42deee67765a75ee29278382dd25de70e20277780f350d15e48002729f78",
+      "website_copies": [
+        "/assets/images/mencintai-indonesia-kritis-640.webp",
+        "/assets/images/mencintai-indonesia-kritis-1120.webp"
+      ],
+      "alt": "Pernyataan FORNAK tentang cinta tanah air dan keberanian mengoreksi."
+    },
+    {
+      "slug": "suara-moral-tindakan-nyata",
+      "category": "infografik",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.46 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.46 PM (1).jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "45951a33fb5f03fe18e1eea91de6f103438f53cb281468ae7cd5d76f7e197415",
+      "website_copies": [
+        "/assets/images/suara-moral-tindakan-nyata-640.webp",
+        "/assets/images/suara-moral-tindakan-nyata-1120.webp"
+      ],
+      "alt": "Enam bentuk tindakan nyata sebagai tanggung jawab moral dan kebangsaan."
+    },
+    {
+      "slug": "kebenaran-harus-disampaikan",
+      "category": "ajakan",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.46 PM.jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.46 PM.jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "92f5f88c4cd607db5bbeda08358400d8edd8abc8cb2bb81f833281e356ac2fae",
+      "website_copies": [
+        "/assets/images/kebenaran-harus-disampaikan-640.webp",
+        "/assets/images/kebenaran-harus-disampaikan-1120.webp"
+      ],
+      "alt": "Ajakan FORNAK kepada berbagai unsur masyarakat untuk menyampaikan kebenaran."
+    },
+    {
+      "slug": "nasionalisme-tanggung-jawab-iman",
+      "category": "pernyataan",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.47 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.47 PM (1).jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "86b652785aa14bef5fbd31cee1be11f0b968463c224c4bbebdf78006781479ca",
+      "website_copies": [
+        "/assets/images/nasionalisme-tanggung-jawab-iman-640.webp",
+        "/assets/images/nasionalisme-tanggung-jawab-iman-1120.webp"
+      ],
+      "alt": "Pernyataan FORNAK bahwa nasionalisme adalah tanggung jawab iman."
+    },
+    {
+      "slug": "gereja-independen-secara-moral",
+      "category": "pernyataan",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.47 PM.jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.47 PM.jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "c93e3d5bdf90dbfeae04cc30d7e9ebd1e946ef5fbed373306dbf7a0ce68cc7e2",
+      "website_copies": [
+        "/assets/images/gereja-independen-secara-moral-640.webp",
+        "/assets/images/gereja-independen-secara-moral-1120.webp"
+      ],
+      "alt": "Pernyataan FORNAK tentang independensi moral gereja."
+    },
+    {
+      "slug": "manifesto-keberanian-moral",
+      "category": "manifesto",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.48 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.48 PM (1).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.27.48 PM.jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "25d7a6b9598d1b1a6595a324f9c72d583319470230949224fbe11892d0decb16",
+      "website_copies": [
+        "/assets/images/manifesto-keberanian-moral-640.webp",
+        "/assets/images/manifesto-keberanian-moral-1120.webp"
+      ],
+      "alt": "Manifesto FORNAK tentang kebenaran, keadilan, integritas, dan masa depan Indonesia."
+    },
+    {
+      "slug": "komitmen-membangun-indonesia",
+      "category": "komitmen",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.48 PM (2).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.48 PM (2).jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "5961b3cd06f7af61f09c733e205a3c2b4286e130b56fc3ff5931a0825ffbe90c",
+      "website_copies": [
+        "/assets/images/komitmen-membangun-indonesia-640.webp",
+        "/assets/images/komitmen-membangun-indonesia-1120.webp"
+      ],
+      "alt": "Komitmen FORNAK untuk berkontribusi membangun Indonesia yang lebih baik."
+    },
+    {
+      "slug": "pernyataan-gereja-berani-bersuara",
+      "category": "pernyataan resmi",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.49 PM (1).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.49 PM (1).jpeg",
+        "WhatsApp Image 2026-11-24 at 4.27.49 PM.jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "1609191565d4a0872df903be97a64dc0f9cd40a1facce30473b118506dd295c2",
+      "website_copies": [
+        "/assets/images/pernyataan-gereja-berani-bersuara-640.webp",
+        "/assets/images/pernyataan-gereja-berani-bersuara-1120.webp"
+      ],
+      "alt": "Pernyataan resmi FORNAK: gereja harus berani bersuara."
+    },
+    {
+      "slug": "visual-kebinekaan-fornak",
+      "category": "materi visual",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.49 PM (2).jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.49 PM (2).jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "99038df09ad6e571d74f5bbff50d27f38a4c55ae78039f792042283180c995f4",
+      "website_copies": [
+        "/assets/images/visual-kebinekaan-fornak-640.webp",
+        "/assets/images/visual-kebinekaan-fornak-1120.webp"
+      ],
+      "alt": "Ilustrasi kebinekaan dalam materi visual FORNAK Indonesia."
+    },
+    {
+      "slug": "indonesia-tantangan-moral-etika",
+      "category": "infografik",
+      "source": "WhatsApp Image 2026-11-24 at 4.27.50 PM.jpeg",
+      "duplicate_sources": [
+        "WhatsApp Image 2026-11-24 at 4.27.50 PM.jpeg"
+      ],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "orientation": "portrait",
+      "sha256": "bedfaeb385c9f282391bf630e46416e9b6e6fc65e6fcb439d53b448fcb644992",
+      "website_copies": [
+        "/assets/images/indonesia-tantangan-moral-etika-640.webp",
+        "/assets/images/indonesia-tantangan-moral-etika-1120.webp"
+      ],
+      "alt": "Infografik FORNAK tentang Indonesia dan tantangan moral-etika."
+    }
+  ],
+  "documents": [
+    {
+      "source": "Gereja di Persimpangan Kekuasaan.pdf",
+      "website_copy": "/assets/documents/gereja-di-persimpangan-kekuasaan.pdf",
+      "title": "Gereja di Persimpangan Kekuasaan: Teologi Politik Bonhoeffer dan Problem Politik Hari Ini",
+      "author": null,
+      "pages": 8,
+      "bytes": 242698,
+      "sha256": "ea9feb5f67f440ee22363012970bcc221599f5cbe28eb8bae9778ddc0978ace6"
+    },
+    {
+      "source": "POSISI TEOLOGIS HABAKUK DAN TANGGUNG JAWAB GEREJA MEMBACA BANGSA.pdf",
+      "website_copy": "/assets/documents/posisi-teologis-habakuk.pdf",
+      "title": "Posisi Teologis Habakuk dan Tanggung Jawab Gereja Membaca Bangsa",
+      "author": "Pdt. Dr. Hanny Setiawan",
+      "pages": 8,
+      "bytes": 478838,
+      "sha256": "ad9b01a9f9d9903ffef5f13ffd0c5b50255ac6e36765fbc01f68dcbae197d95b"
+    }
+  ]
+}

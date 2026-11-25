@@ -372,7 +372,7 @@
 .minimal-archive-callout {
   background:
     linear-gradient(90deg, rgba(247, 244, 238, 0.96), rgba(247, 244, 238, 0.96)),
-    url('/Fornak-Indonesia/Fornak-Indonesia/assets/images/arsip-pertemuan.jpg') center/cover;
+    url('/Fornak-Indonesia/assets/images/arsip-pertemuan.jpg') center/cover;
 }
 
 .minimal-archive-callout__inner {

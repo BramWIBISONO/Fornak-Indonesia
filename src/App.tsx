@@ -114,7 +114,7 @@ function Wordmark({ inverse = false }: { inverse?: boolean }) {
   return (
     <span className={`wordmark ${inverse ? 'wordmark--inverse' : ''}`}>
       <img
-        src="/Fornak-Indonesia/Fornak-Indonesia/assets/images/logo-fornak-144.webp"
+        src="/Fornak-Indonesia/assets/images/logo-fornak-144.webp"
         width="52"
         height="52"
         alt=""
@@ -314,7 +314,7 @@ function MinimalHome({ navigate }: { navigate: Navigate }) {
 
       <section className="minimal-impact minimal-section" aria-labelledby="impact-title" data-reveal>
         <div className="minimal-container">
-          <figure className="report-panorama"><img src="/Fornak-Indonesia/Fornak-Indonesia/assets/images/peserta-laporan-2023.webp" width="1250" height="605" alt="Peserta duduk berderet dalam dokumentasi Silaturahmi Kebangsaan." loading="lazy"/><figcaption>{tr("Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah · Laporan 2023")}</figcaption></figure>
+          <figure className="report-panorama"><img src="/Fornak-Indonesia/assets/images/peserta-laporan-2023.webp" width="1250" height="605" alt="Peserta duduk berderet dalam dokumentasi Silaturahmi Kebangsaan." loading="lazy"/><figcaption>{tr("Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah · Laporan 2023")}</figcaption></figure>
           <header className="minimal-impact__header">
             <div>
               <p className="minimal-kicker">{tr("Jejak kerja 2023")}</p>
@@ -410,7 +410,7 @@ function AboutPage({ navigate }: { navigate: Navigate }) {
     <>
       <PageHero
         eyebrow={tr("Tentang kami")}
-        artwork={<img className="about-portrait" src="/Fornak-Indonesia/Fornak-Indonesia/assets/images/arsip-pertemuan.jpg" alt="" />}
+        artwork={<img className="about-portrait" src="/Fornak-Indonesia/assets/images/arsip-pertemuan.jpg" alt="" />}
         title={tr("Identitas yang berakar pada iman dan kebangsaan.")}
         intro={tr("Kenali komunitas relawan Kristen yang membangun ruang dialog dan pelayanan bagi Indonesia.")}
       />
@@ -429,7 +429,7 @@ function AboutPage({ navigate }: { navigate: Navigate }) {
 
       <section className="about-identity section-space--compact section-ivory">
         <div className="container identity-grid">
-          <figure className="official-seal"><img src="/Fornak-Indonesia/Fornak-Indonesia/assets/images/fornak-logo-mark.webp" width="200" height="200" loading="lazy" alt="Lambang resmi Forum Nasionalisme Kristen"/></figure>
+          <figure className="official-seal"><img src="/Fornak-Indonesia/assets/images/fornak-logo-mark.webp" width="200" height="200" loading="lazy" alt="Lambang resmi Forum Nasionalisme Kristen"/></figure>
           <div>
             <Eyebrow>{tr("Identitas dan legalitas")}</Eyebrow>
             <h2>{tr(organization.tagline)}</h2>
@@ -613,12 +613,12 @@ function DocumentationPage({ navigate }: { navigate: Navigate }) {
         <p>{tr("Menurut laporan kegiatan 2023, sebanyak 185 hamba Tuhan dari 50+ gereja dan organisasi Kristen hadir bersama 2.500+ siswa SMP/SMA/SMK se-Jawa Tengah dan 200+ mahasiswa.")}</p>
         <Link to="/publikasi/silaturahmi-kebangsaan-jawa-tengah-2023" navigate={navigate} className="minimal-text-link">{tr("Baca laporan lengkap")} <ArrowRight aria-hidden="true" /></Link></div><img src={publications[2].cover} alt="Sampul laporan Silaturahmi Kebangsaan Jawa Tengah 2023" loading="lazy"/>
       </section>
-      <div className="container archive-photo"><figure><img src="/Fornak-Indonesia/Fornak-Indonesia/assets/images/peserta-laporan-2023.webp" width="1250" height="605" alt="Peserta duduk bersama dalam dokumentasi kegiatan Jawa Tengah." /><figcaption>{tr("Dokumentasi dari laporan Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah 2023, halaman 4.")}</figcaption></figure></div><section className="documentation-feature section-space">
+      <div className="container archive-photo"><figure><img src="/Fornak-Indonesia/assets/images/peserta-laporan-2023.webp" width="1250" height="605" alt="Peserta duduk bersama dalam dokumentasi kegiatan Jawa Tengah." /><figcaption>{tr("Dokumentasi dari laporan Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah 2023, halaman 4.")}</figcaption></figure></div><section className="documentation-feature section-space">
         <div className="container documentation-feature__grid">
           <figure>
             <img
-              src="/Fornak-Indonesia/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-1120.webp"
-              srcSet="/Fornak-Indonesia/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-640.webp 640w, /Fornak-Indonesia/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-1120.webp 1120w"
+              src="/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-1120.webp"
+              srcSet="/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-640.webp 640w, /Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-1120.webp 1120w"
               sizes="(max-width: 760px) 80vw, 36vw"
               alt="Komitmen FORNAK untuk berkontribusi membangun Indonesia yang lebih baik."
             />

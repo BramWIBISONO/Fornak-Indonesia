@@ -55,7 +55,7 @@
 .site-footer h2 {color:#fff}
 .journal-featured__grid {border:0;gap:20px}
 .journal-card,.journal-card--lead {border-radius:18px;border:1px solid #dad9d3;min-height:0;gap:8px}
-.journal-card--lead {background:linear-gradient(90deg,#26181bf5 0%,#23171cee 45%,#15171bba),url('/Fornak-Indonesia/Fornak-Indonesia/assets/images/arsip-perjumpaan.jpg') center/cover}
+.journal-card--lead {background:linear-gradient(90deg,#26181bf5 0%,#23171cee 45%,#15171bba),url('/Fornak-Indonesia/assets/images/arsip-perjumpaan.jpg') center/cover}
 .journal-card--lead h3,.journal-card--lead a,.journal-card--lead .journal-card__footer a {color:#fff}
 .journal-card--lead .journal-card__subtitle {color:#ffcfaf}
 .journal-card h3,.journal-card:not(.journal-card--lead) h3 {font:600 clamp(24px,2.4vw,34px)/1.19 var(--font-editorial);letter-spacing:-.025em;margin:14px 0}

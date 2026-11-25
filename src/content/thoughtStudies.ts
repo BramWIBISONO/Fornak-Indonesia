@@ -57,7 +57,7 @@ export const THOUGHT_STUDIES: ThoughtArticle[] = [
       '“Menara pengintai bukan sekadar postur intelektual. Ia adalah tempat di mana langit dan bumi bertemu—dan di sanalah suara kenabian dilahirkan.”',
     practicalAction:
       'Membekali umat Kristen di birokrasi, dunia usaha, dan masyarakat sipil agar bersikap independen, berintegritas moral, dan bersuara jernih.',
-    pdfUrl: '/Fornak-Indonesia/Fornak-Indonesia/assets/documents/posisi-teologis-habakuk.pdf',
+    pdfUrl: '/Fornak-Indonesia/assets/documents/posisi-teologis-habakuk.pdf',
   },
   {
     id: 'bonhoeffer-persimpangan-kekuasaan',
@@ -97,7 +97,7 @@ export const THOUGHT_STUDIES: ThoughtArticle[] = [
       '“Tugas gereja bukan sekadar membalut luka korban yang tergilas di bawah roda kekuasaan, melainkan menyumbat ruji-ruji roda itu sendiri ketika roda tersebut berputar menghancurkan keadilan.”',
     practicalAction:
       'Mendorong keberanian etis para pemimpin rohani dan profesional Kristen untuk tidak membungkam kebenaran demi kompromi politis sesaat.',
-    pdfUrl: '/Fornak-Indonesia/Fornak-Indonesia/assets/documents/gereja-di-persimpangan-kekuasaan.pdf',
+    pdfUrl: '/Fornak-Indonesia/assets/documents/gereja-di-persimpangan-kekuasaan.pdf',
   },
 ];
 

@@ -8,13 +8,13 @@ export type GalleryItem = {
 };
 
 const portrait = (slug: string) => ({
-  src: `/Fornak-Indonesia/Fornak-Indonesia/assets/images/${slug}-1120.webp`,
-  srcSet: `/Fornak-Indonesia/Fornak-Indonesia/assets/images/${slug}-640.webp 640w, /Fornak-Indonesia/Fornak-Indonesia/assets/images/${slug}-1120.webp 1120w`,
+  src: `/Fornak-Indonesia/assets/images/${slug}-1120.webp`,
+  srcSet: `/Fornak-Indonesia/assets/images/${slug}-640.webp 640w, /Fornak-Indonesia/assets/images/${slug}-1120.webp 1120w`,
 });
 
 const landscape = (slug: string) => ({
-  src: `/Fornak-Indonesia/Fornak-Indonesia/assets/images/${slug}-1440.webp`,
-  srcSet: `/Fornak-Indonesia/Fornak-Indonesia/assets/images/${slug}-720.webp 720w, /Fornak-Indonesia/Fornak-Indonesia/assets/images/${slug}-1440.webp 1440w`,
+  src: `/Fornak-Indonesia/assets/images/${slug}-1440.webp`,
+  srcSet: `/Fornak-Indonesia/assets/images/${slug}-720.webp 720w, /Fornak-Indonesia/assets/images/${slug}-1440.webp 1440w`,
 });
 
 export const gallery: GalleryItem[] = [

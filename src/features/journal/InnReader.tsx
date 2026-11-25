@@ -14,7 +14,7 @@ export function InnReader({slug,navigate}:{slug:string;navigate:(path:string)=>v
     if(!article)return;
     const controller=new AbortController();
     setBody(null);setFailed(false);
-    fetch('/Fornak-Indonesia/Fornak-Indonesia/assets/opini/'+article.slug+'.json',{signal:controller.signal}).then(async response=>{
+    fetch('/Fornak-Indonesia/assets/opini/'+article.slug+'.json',{signal:controller.signal}).then(async response=>{
       if(!response.ok)throw Error('Unavailable');
       const data:Body=await response.json();
       if(data.slug!==article.slug||!data.blocks?.length)throw Error('Invalid article');

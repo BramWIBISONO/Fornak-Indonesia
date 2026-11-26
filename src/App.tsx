@@ -1,3 +1,4 @@
+import { sitePath, routePath } from './content/sitePath';
 import { LanguagePicker, useLocale, tr } from './features/language';
 import { JoinForum } from './features/experience/JoinForum';
 import { InnReader } from './features/journal/InnReader';
@@ -104,7 +105,7 @@ function Link({
   };
 
   return (
-    <a href={'/Fornak-Indonesia' + to} className={className} onClick={handleClick}>
+    <a href={sitePath(to)} className={className} onClick={handleClick}>
       {children}
     </a>
   );
@@ -114,7 +115,7 @@ function Wordmark({ inverse = false }: { inverse?: boolean }) {
   return (
     <span className={`wordmark ${inverse ? 'wordmark--inverse' : ''}`}>
       <img
-        src="/Fornak-Indonesia/assets/images/logo-fornak-144.webp"
+        src={sitePath("/assets/images/logo-fornak-144.webp")}
         width="52"
         height="52"
         alt=""
@@ -221,11 +222,11 @@ function Footer({ navigate }: { navigate: Navigate }) {
           <a href={`mailto:${organization.email}`}>{organization.email}</a>
           <a href={organization.adminWhatsApp}>WhatsApp {organization.adminPhone}</a>
           <a href={organization.instagram} target="_blank" rel="noreferrer">Instagram {organization.instagramHandle}</a>
-          <p className="footer-legal">{organization.legalReference}</p>
+          
         </div>
       </div>
       <div className="footer-bottom container">
-        <span>© 2026 FORNAK Indonesia - Forum Nasionalisme Kristen</span>
+        <span>© 2026 FORNAK Indonesia</span><span className="footer-registration">AHU-0001708.AH.01.07.Tahun 2024</span>
         <span>{tr("Bagi Tuhan, Bagi Indonesia")}</span>
       </div>
     </footer>
@@ -314,7 +315,7 @@ function MinimalHome({ navigate }: { navigate: Navigate }) {
 
       <section className="minimal-impact minimal-section" aria-labelledby="impact-title" data-reveal>
         <div className="minimal-container">
-          <figure className="report-panorama"><img src="/Fornak-Indonesia/assets/images/peserta-laporan-2023.webp" width="1250" height="605" alt="Peserta duduk berderet dalam dokumentasi Silaturahmi Kebangsaan." loading="lazy"/><figcaption>{tr("Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah · Laporan 2023")}</figcaption></figure>
+          <figure className="report-panorama"><img src={sitePath("/assets/images/peserta-laporan-2023.webp")} width="1250" height="605" alt="Peserta duduk berderet dalam dokumentasi Silaturahmi Kebangsaan." loading="lazy"/><figcaption>{tr("Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah · Laporan 2023")}</figcaption></figure>
           <header className="minimal-impact__header">
             <div>
               <p className="minimal-kicker">{tr("Jejak kerja 2023")}</p>
@@ -346,7 +347,7 @@ function MinimalHome({ navigate }: { navigate: Navigate }) {
       </section>
       <section className="home-insights minimal-section"><div className="minimal-container">
         <div className="section-line"><div><p className="minimal-kicker">{tr("Jurnal FORNAK")}</p><h2>{tr("Pilihan redaksi")}</h2></div><Link to="/jurnal" navigate={navigate}>{tr("Semua tulisan →")}</Link></div>
-        <div className="insight-grid">{localArticles.slice(0,3).map(article => <article key={article.slug}><EditorialCover category={tr(article.category)} title={article.title}/><p className="minimal-meta">{tr(article.category)}</p><h3><Link to={'/jurnal/'+article.slug} navigate={navigate}>{article.title}</Link></h3><p>{tr(article.summary)}</p><small>{article.author} · {article.readingTime} {tr("menit baca")}</small></article>)}</div>
+        <div className="insight-grid">{localArticles.slice(0,3).map(article => <article key={article.slug}><EditorialCover category={tr(article.category)} title={article.title}/><p className="minimal-meta">{tr(article.category)}</p><h3><Link to={'/jurnal/'+article.slug} navigate={navigate}>{tr(article.title)}</Link></h3><p>{tr(article.summary)}</p><small>{article.author} · {article.readingTime} {tr("menit baca")}</small></article>)}</div>
       </div></section>
       <PublicationShelf navigate={navigate}/>
       <JoinForum/>
@@ -362,32 +363,16 @@ function PublicationCard({
   navigate: Navigate;
 }) {
   return (
-    <article className="publication-card">
-      <Link
-        to={`/publikasi/${publication.slug}`}
-        navigate={navigate}
-        className="publication-card__cover"
-      >
-        <img
-          src={publication.cover}
-          srcSet={publication.coverSrcSet}
-          sizes="(max-width: 760px) 40vw, 18vw"
-          width="900"
-          height="1200"
-          loading="lazy"
-          alt={`Sampul ${publication.title}`}
-        />
+    <article className="related-volume">
+      <Link to={'/publikasi/'+publication.slug} navigate={navigate} className="related-book-link">
+        <div className="related-book-art"><img src={publication.cover} srcSet={publication.coverSrcSet}
+          sizes="(max-width: 540px) 88px, 132px" width={480} height={publication.coverHeightAt480} alt="" loading="lazy"/></div>
+        <div className="related-book-copy">
+          <p className="metadata">{tr(publication.category)} · {publication.pages} {tr('halaman')}</p>
+          <h3>{publication.shortTitle}</h3><p>{tr(publication.highlights[0])}</p>
+          <span>{tr('Baca publikasi')} <ArrowRight size={16} aria-hidden="true"/></span>
+        </div>
       </Link>
-      <div>
-        <p className="metadata">{tr(publication.category)} · {publication.pages} {tr("halaman")}</p>
-        <h3>
-          <Link to={`/publikasi/${publication.slug}`} navigate={navigate}>
-            {publication.title}
-          </Link>
-        </h3>
-        <p>{tr(publication.summary)}</p>
-        <Link to={`/publikasi/${publication.slug}`} navigate={navigate} className="text-link">{tr("Baca ringkasan dan dokumen")}</Link>
-      </div>
     </article>
   );
 }
@@ -408,20 +393,24 @@ function PageHero({ eyebrow, title, intro, artwork }: { eyebrow: string; title: 
 function AboutPage({ navigate }: { navigate: Navigate }) {
   return (
     <>
-      <PageHero
-        eyebrow={tr("Tentang kami")}
-        artwork={<img className="about-portrait" src="/Fornak-Indonesia/assets/images/arsip-pertemuan.jpg" alt="" />}
-        title={tr("Identitas yang berakar pada iman dan kebangsaan.")}
-        intro={tr("Kenali komunitas relawan Kristen yang membangun ruang dialog dan pelayanan bagi Indonesia.")}
-      />
-      <section className="about-lead section-space">
+      <header className="profile-intro"><div className="profile-intro-inner">
+        <div className="profile-intro-copy"><p className="folio-label">{tr('Tentang FORNAK')}</p>
+          <h1>{tr('Iman dan kebangsaan.')}</h1>
+          <p>{tr('Kenali komunitas relawan Kristen yang membangun ruang dialog dan pelayanan bagi Indonesia.')}</p>
+          <a href="#identitas-fornak">{tr('Kenali organisasi kami')} <ArrowRight size={17}/></a>
+        </div>
+        <figure><img src={sitePath('/assets/images/peserta-laporan-2023.webp')} width={1250} height={605} alt={tr('Peserta Silaturahmi Kebangsaan di Jawa Tengah')}/>
+          <figcaption>{tr('Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah · Laporan 2023')}</figcaption>
+        </figure>
+      </div></header>
+      <section id="identitas-fornak" className="about-lead section-space">
         <div className="container about-lead__grid">
           <div>
             <Eyebrow>{tr("Siapakah kami?")}</Eyebrow>
             <h2>{organization.fullName}</h2>
           </div>
           <div>
-            <blockquote>“{organization.statement}”</blockquote>
+            <blockquote>“{tr(organization.statement)}”</blockquote>
             <p className="source-note">{tr("Sumber: materi profil resmi FORNAK Indonesia.")}</p>
           </div>
         </div>
@@ -429,7 +418,7 @@ function AboutPage({ navigate }: { navigate: Navigate }) {
 
       <section className="about-identity section-space--compact section-ivory">
         <div className="container identity-grid">
-          <figure className="official-seal"><img src="/Fornak-Indonesia/assets/images/fornak-logo-mark.webp" width="200" height="200" loading="lazy" alt="Lambang resmi Forum Nasionalisme Kristen"/></figure>
+          <figure className="official-seal"><img src={sitePath("/assets/images/fornak-logo-mark.webp")} width="200" height="200" loading="lazy" alt="Lambang resmi Forum Nasionalisme Kristen"/></figure>
           <div>
             <Eyebrow>{tr("Identitas dan legalitas")}</Eyebrow>
             <h2>{tr(organization.tagline)}</h2>
@@ -573,7 +562,7 @@ function PublicationDetail({ publication, navigate }: { publication: Publication
         <div className="container reader-heading">
           <div>
             <Eyebrow>{tr("Pembaca dokumen")}</Eyebrow>
-            <h2>{tr("Baca PDF tanpa meninggalkan halaman.")}</h2>
+            <h2>{publication.shortTitle}</h2>
           </div>
           <a href={publication.pdf} target="_blank" rel="noreferrer" className="text-link text-link--light">
             <ExternalLink aria-hidden="true" /> {tr("Buka PDF asli")}</a>
@@ -583,10 +572,10 @@ function PublicationDetail({ publication, navigate }: { publication: Publication
         </div>
       </section>
 
-      <section className="related section-space--compact">
+      <section className="related-reading" id="bacaan-terkait">
         <div className="container">
-          <SectionHeading eyebrow={tr("Bacaan terkait")} title={tr("Lanjutkan penelusuran.")} />
-          <div className="publication-grid">
+          <header><h2>{tr("Bacaan terkait")}</h2><Link to="/publikasi" navigate={navigate}>{tr("Semua publikasi")} <ArrowRight size={16}/></Link></header>
+          <div className="related-reading-grid">
             {publications
               .filter((item) => item.slug !== publication.slug)
               .map((item) => (
@@ -613,12 +602,12 @@ function DocumentationPage({ navigate }: { navigate: Navigate }) {
         <p>{tr("Menurut laporan kegiatan 2023, sebanyak 185 hamba Tuhan dari 50+ gereja dan organisasi Kristen hadir bersama 2.500+ siswa SMP/SMA/SMK se-Jawa Tengah dan 200+ mahasiswa.")}</p>
         <Link to="/publikasi/silaturahmi-kebangsaan-jawa-tengah-2023" navigate={navigate} className="minimal-text-link">{tr("Baca laporan lengkap")} <ArrowRight aria-hidden="true" /></Link></div><img src={publications[2].cover} alt="Sampul laporan Silaturahmi Kebangsaan Jawa Tengah 2023" loading="lazy"/>
       </section>
-      <div className="container archive-photo"><figure><img src="/Fornak-Indonesia/assets/images/peserta-laporan-2023.webp" width="1250" height="605" alt="Peserta duduk bersama dalam dokumentasi kegiatan Jawa Tengah." /><figcaption>{tr("Dokumentasi dari laporan Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah 2023, halaman 4.")}</figcaption></figure></div><section className="documentation-feature section-space">
+      <div className="container archive-photo"><figure><img src={sitePath("/assets/images/peserta-laporan-2023.webp")} width="1250" height="605" alt="Peserta duduk bersama dalam dokumentasi kegiatan Jawa Tengah." /><figcaption>{tr("Dokumentasi dari laporan Silaturahmi Kebangsaan Umat Kristen se-Jawa Tengah 2023, halaman 4.")}</figcaption></figure></div><section className="documentation-feature section-space">
         <div className="container documentation-feature__grid">
           <figure>
             <img
-              src="/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-1120.webp"
-              srcSet="/Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-640.webp 640w, /Fornak-Indonesia/assets/images/komitmen-membangun-indonesia-1120.webp 1120w"
+              src={sitePath("/assets/images/komitmen-membangun-indonesia-1120.webp")}
+              srcSet={[sitePath("/assets/images/komitmen-membangun-indonesia-640.webp 640w"), sitePath("/assets/images/komitmen-membangun-indonesia-1120.webp 1120w")].join(", ")}
               sizes="(max-width: 760px) 80vw, 36vw"
               alt="Komitmen FORNAK untuk berkontribusi membangun Indonesia yang lebih baik."
             />
@@ -947,11 +936,11 @@ function RouteView({ path, navigate }: { path: string; navigate: Navigate }) {
 
 export default function App() {
   useLocale();
-  const [path, setPath] = useState(() => window.location.pathname.replace(/^\/Fornak-Indonesia(?=\/|$)/, "").replace(/^\/Fornak-Indonesia(?=\/|$)/, "").replace(/\/$/, '') || '/');
+  const [path, setPath] = useState(() => routePath(window.location.pathname));
   useScrollReveal(path);
 
   useEffect(() => {
-    const onPopState = () => setPath(window.location.pathname.replace(/^\/Fornak-Indonesia(?=\/|$)/, "").replace(/^\/Fornak-Indonesia(?=\/|$)/, "").replace(/\/$/, '') || '/');
+    const onPopState = () => setPath(routePath(window.location.pathname));
     window.addEventListener('popstate', onPopState);
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
@@ -975,7 +964,7 @@ export default function App() {
       window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
       return;
     }
-    window.history.pushState({}, '', '/Fornak-Indonesia' + nextPath);
+    window.history.pushState({}, '', sitePath(nextPath));
     setPath(nextPath);
     requestAnimationFrame(()=>document.getElementById('main-content')?.focus({preventScroll:true}));
     window.scrollTo({ top: 0, behavior: 'auto' });

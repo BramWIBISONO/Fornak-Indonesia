@@ -1,4 +1,6 @@
-import { tr } from '../language';
+import { sitePath } from '../../content/sitePath';
+import { ArrowUpRight, Clock3 } from 'lucide-react';
+import { tr, useLocale } from '../language';
 import { useEffect, useRef, useMemo, useState, type MouseEvent } from 'react';
 import { innOpinions, innOpinionSource } from './innIndex';
 import { getLocalArticle, localArticles } from './localArticles';
@@ -33,10 +35,11 @@ function InternalLink({
     event.preventDefault();
     navigate(to);
   };
-  return <a href={to} onClick={onClick} className={className}>{children}</a>;
+  return <a href={sitePath(to)} onClick={onClick} className={className}>{children}</a>;
 }
 
 export function JournalPage({ navigate }: { navigate: Navigate }) {
+  const locale=useLocale();
   const [query, setQuery] = useState('');
   const [year, setYear] = useState('Semua tahun');
   const [topic, setTopic] = useState(() => new URLSearchParams(location.search).get('topik') || '');
@@ -47,7 +50,7 @@ export function JournalPage({ navigate }: { navigate: Navigate }) {
     for(const [key,value] of [['q',term],['topik',topic]]) {if(value)url.searchParams.set(key,value);else url.searchParams.delete(key)}
     history.replaceState(history.state,'',url);
   },[term,topic]);
-  const articles = localArticles.filter(a => (!topic || a.category === topic) && [a.title, a.author, a.category, a.summary,a.subtitle].join(' ').toLowerCase().includes(term.trim().toLowerCase()));
+  const articles = localArticles.filter(a => (!topic || a.category === topic) && [a.title,tr(a.title),a.author,a.category,tr(a.category),a.summary,tr(a.summary),a.subtitle].join(' ').toLowerCase().includes(term.trim().toLowerCase()));
   const [visible, setVisible] = useState(18);
 
   const years = useMemo(
@@ -59,10 +62,10 @@ export function JournalPage({ navigate }: { navigate: Navigate }) {
     const normalized = query.trim().toLocaleLowerCase('id-ID');
     return innOpinions.filter((article) => {
       const matchesYear = year === 'Semua tahun' || article.date.startsWith(year);
-      const matchesQuery = !normalized || `${article.title} ${article.author}`.toLocaleLowerCase('id-ID').includes(normalized);
+      const matchesQuery = !normalized || `${article.title} ${tr(article.title)} ${article.author}`.toLocaleLowerCase('id-ID').includes(normalized);
       return matchesYear && matchesQuery;
-    }).sort((a,b) => order === 'title' ? a.title.localeCompare(b.title,'id') : order === 'old' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date));
-  }, [query, year, order]);
+    }).sort((a,b) => order === 'title' ? tr(a.title).localeCompare(tr(b.title),locale) : order === 'old' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date));
+  }, [query, year, order,locale]);
 
   return (
     <div className="journal-page">
@@ -73,7 +76,7 @@ export function JournalPage({ navigate }: { navigate: Navigate }) {
             <p className="journal-deck">{tr("Ruang untuk renungan kebangsaan, kajian publik, dan percakapan kritis yang mendorong gereja mengambil bagian dalam transformasi bangsa.")}</p>
             <a className="folio-button" href="#naskah-pilihan">{tr("Baca pilihan redaksi ↓")}</a> <a className="journal-archive-link" href="#indeks-opini">{tr("Arsip opini")}</a>
           </div>
-          <InternalLink to={'/jurnal/'+localArticles[0].slug} navigate={navigate} className="journal-issue"><span>{tr("Jurnal FORNAK")}</span><EditorialCover category={localArticles[0].category} title={localArticles[0].title}/><strong>{localArticles[0].title}</strong><small>{localArticles[0].author} ↗</small></InternalLink>
+          <InternalLink to={'/jurnal/'+localArticles[0].slug} navigate={navigate} className="journal-issue"><span>{tr("Jurnal FORNAK")}</span><EditorialCover category={localArticles[0].category} title={localArticles[0].title}/><strong>{tr(localArticles[0].title)}</strong><small>{localArticles[0].author} ↗</small></InternalLink>
         </div>
       </header>
 
@@ -93,10 +96,10 @@ export function JournalPage({ navigate }: { navigate: Navigate }) {
                 </div>
                 <h3>
                   <InternalLink to={`/jurnal/${article.slug}`} navigate={navigate}>
-                    {article.title}
+                    {tr(article.title)}
                   </InternalLink>
                 </h3>
-                {article.subtitle && <p className="journal-card__subtitle">{article.subtitle}</p>}
+                {article.subtitle && <p className="journal-card__subtitle">{tr(article.subtitle)}</p>}
                 <p>{tr(article.summary)}</p>
                 <div className="journal-card__footer">
                   <span>{article.author} · {formatDate(article.date)}</span>
@@ -138,15 +141,12 @@ export function JournalPage({ navigate }: { navigate: Navigate }) {
             <label><span>{tr("Urutkan")}</span><select value={order} onChange={e => {setOrder(e.target.value);setVisible(18);}}><option value="new">{tr("Terbaru")}</option><option value="old">{tr("Terlama")}</option><option value="title">{tr("Judul A–Z")}</option></select></label><p role="status">{filtered.length} {tr("artikel ditemukan")}</p>
           </div>
 
-          <div className="journal-list">
+          {!filtered.length && <p role="status">{tr("Tidak ada tulisan yang cocok.")}</p>}<div className="journal-list">
             {filtered.slice(0, visible).map((article) => (
               <article key={article.slug} className="journal-list__item">
-                <div>
-                  <span>{formatDate(article.date)}</span>
-                  <span>{article.minutes} {tr("menit baca")}</span>
-                </div>
-                <h3><InternalLink to={'/jurnal/opini/'+article.slug} navigate={navigate}>{article.title}</InternalLink></h3>
-                <p>{article.author}</p><InternalLink to={'/jurnal/opini/'+article.slug} navigate={navigate}>{tr("Baca di sini")}</InternalLink>
+                <div className="opinion-date"><time dateTime={article.date}>{formatDate(article.date)}</time><span><Clock3 size={13}/>{article.minutes} {tr('menit baca')}</span></div>
+                <h3><InternalLink to={'/jurnal/opini/'+article.slug} navigate={navigate}>{tr(article.title)}</InternalLink></h3>
+                <div className="opinion-credit"><span>{article.author}</span><ArrowUpRight aria-hidden="true" size={18}/></div>
               </article>
             ))}
           </div>
@@ -161,6 +161,12 @@ export function JournalPage({ navigate }: { navigate: Navigate }) {
 }
 
 export function JournalArticlePage({ article, navigate }: { article: LocalArticle; navigate: Navigate }) {
+  const locale=useLocale();
+  const [showOriginal,setShowOriginal]=useState(false);
+  const originalLanguage=article.language==='en'?'en':'id';
+  const readingLanguage=showOriginal?originalLanguage:locale;
+  const read=(text:string)=>showOriginal?text:tr(text);
+  const sections=article.language==='bilingual'&&!showOriginal?article.sections.filter((_,i)=>locale==='en'?i===1:i===0):article.sections;
   const body = useRef<HTMLDivElement>(null);
   const bar = useRef<HTMLProgressElement>(null);
   useEffect(() => {
@@ -180,12 +186,13 @@ export function JournalArticlePage({ article, navigate }: { article: LocalArticl
         <div className="article-shell">
           <InternalLink to="/jurnal" navigate={navigate} className="article-back">{tr("Kembali ke Jurnal FORNAK")}</InternalLink>
           <p className="minimal-kicker">{tr(article.category)}</p>
-          <h1>{article.title}</h1>
-          {article.subtitle && <p className="article-hero__subtitle">{article.subtitle}</p>}
+          <h1 lang={readingLanguage}>{read(article.title)}</h1>
+          {article.subtitle && <p className="article-hero__subtitle">{read(article.subtitle)}</p>}
           <div className="article-byline">
             <span>{article.author}</span>
             <span>{formatDate(article.date)}</span>
             <span>{article.readingTime} {tr("menit baca")}</span>
+            {locale!==originalLanguage && <button className="original-toggle" aria-pressed={showOriginal} onClick={()=>setShowOriginal(!showOriginal)}>{tr(showOriginal?'Terjemahan artikel':'Naskah asli')}</button>}
           </div>
         </div>
       </header>
@@ -193,20 +200,20 @@ export function JournalArticlePage({ article, navigate }: { article: LocalArticl
         <aside>
           <p>{tr("Gagasan utama")}</p>
           <strong>{tr(article.summary)}</strong>
-          {article.sections.filter(s => s.heading).length > 1 && <nav aria-label={tr("Daftar isi")}><p>{tr("Dalam tulisan ini")}</p>{article.sections.map((s,i) => s.heading && <a key={i} href={'#bagian-'+i}>{s.heading}</a>)}</nav>}
+          {sections.filter(s => s.heading).length > 1 && <nav aria-label={tr("Daftar isi")}><p>{tr("Dalam tulisan ini")}</p>{sections.map((s,i) => s.heading && <a key={i} href={'#bagian-'+i}>{read(s.heading)}</a>)}</nav>}
           <a href={'https://wa.me/?text='+encodeURIComponent(article.title+' '+window.location.href.split('#')[0])} target="_blank" rel="noreferrer">{tr("Bagikan via WhatsApp")}</a>
           <a href="https://instagram.com/fornak.id" target="_blank" rel="noreferrer">{tr("Ikuti @fornak.id")}</a>
         </aside>
-        <div className="article-body" lang={article.language==='en'?'en':'id'} ref={body}>
-          {article.sections.map((section, index) => (
+        <div className="article-body" lang={readingLanguage} ref={body}>
+          {sections.map((section, index) => (
             <section id={`bagian-${index}`} key={`${article.slug}-${index}`} data-reveal>
-              {section.heading && <h2>{section.heading}</h2>}
-              {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-              {section.quote && <blockquote>{section.quote}</blockquote>}
+              {section.heading && <h2>{read(section.heading)}</h2>}
+              {section.paragraphs.map((paragraph) => <p key={paragraph}>{read(paragraph)}</p>)}
+              {section.quote && <blockquote>{read(section.quote)}</blockquote>}
             </section>
           ))}
           <footer className="article-endnote">
-            <p>{tr("Baca juga")}</p>{localArticles.filter(a => a.slug !== article.slug).slice(0,2).map(a => <InternalLink key={a.slug} navigate={navigate} to={`/jurnal/${a.slug}`}>{a.title}</InternalLink>)}
+            <p>{tr("Baca juga")}</p>{localArticles.filter(a => a.slug !== article.slug).slice(0,2).map(a => <InternalLink key={a.slug} navigate={navigate} to={`/jurnal/${a.slug}`}>{tr(a.title)}</InternalLink>)}
             <span>{article.author} · {formatDate(article.date)}</span>
           </footer>
         </div>

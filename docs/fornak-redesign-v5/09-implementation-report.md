@@ -7,3 +7,9 @@ Jurnal mendapat kepala terbitan serif dan ilustrasi pilar. Kontak WhatsApp admin
 Tiga putaran pemeriksaan mencakup pemeriksaan awal desain dan kontras, koreksi judul ponsel dan panel program, lalu pemeriksaan produksi setelah optimasi logo, gambar pembuka, dan navigasi gerakan terbatas. TypeScript dan build Vite berhasil. Peringatan ukuran chunk pembaca PDF dicatat di laporan performa.
 
 [Bukti sesudah di desktop](bukti/final/beranda-1440.jpg) · [Bukti sesudah di ponsel](bukti/final/beranda-390.jpg) · [Penilaian akhir](14-final-quality-assessment.md)
+
+## Revisi berdasarkan tangkapan layar
+
+Perpustakaan menampilkan tiga sampul yang dapat dibuka dan sebuah katalog yang dapat dicari. Sampul digital baru untuk kajian Bonhoeffer digunakan pada katalog. PDF memuat halaman asli. Kartu bacaan terkait kini memuat sampul lengkap dan satu pokok bahasan. Bagian pembuka Tentang memakai foto peserta dari laporan kegiatan Jawa Tengah 2023.
+
+Indeks Opini menghubungkan 93 naskah lokal yang ditampilkan dengan izin terbit ulang yang dikonfirmasi FORNAK. Antarmuka menyediakan bahasa Indonesia, Inggris, Mandarin sederhana serta Mandarin tradisional Taiwan. Judul terbitan dan isi dokumen menggunakan bahasa sumber.

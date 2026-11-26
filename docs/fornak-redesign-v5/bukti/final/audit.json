@@ -115,56 +115,56 @@
     {
       "route": "/",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/tentang",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/jurnal",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/pemikiran",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/publikasi",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/kegiatan",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/galeri",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },
     {
       "route": "/kontak",
       "width": 320,
-      "overflow": false,
+      "overflow": true,
       "broken": [],
       "violations": []
     },

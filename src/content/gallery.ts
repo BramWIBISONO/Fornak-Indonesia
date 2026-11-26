@@ -1,3 +1,4 @@
+import { sitePath } from './sitePath';
 export type GalleryItem = {
   slug: string;
   title: string;
@@ -8,13 +9,13 @@ export type GalleryItem = {
 };
 
 const portrait = (slug: string) => ({
-  src: `/Fornak-Indonesia/assets/images/${slug}-1120.webp`,
-  srcSet: `/Fornak-Indonesia/assets/images/${slug}-640.webp 640w, /Fornak-Indonesia/assets/images/${slug}-1120.webp 1120w`,
+  src: sitePath(`/assets/images/${slug}-1120.webp`),
+  srcSet: [sitePath(`/assets/images/${slug}-640.webp 640w`), sitePath(`/assets/images/${slug}-1120.webp 1120w`)].join(", "),
 });
 
 const landscape = (slug: string) => ({
-  src: `/Fornak-Indonesia/assets/images/${slug}-1440.webp`,
-  srcSet: `/Fornak-Indonesia/assets/images/${slug}-720.webp 720w, /Fornak-Indonesia/assets/images/${slug}-1440.webp 1440w`,
+  src: sitePath(`/assets/images/${slug}-1440.webp`),
+  srcSet: [sitePath(`/assets/images/${slug}-720.webp 720w`), sitePath(`/assets/images/${slug}-1440.webp 1440w`)].join(", "),
 });
 
 export const gallery: GalleryItem[] = [

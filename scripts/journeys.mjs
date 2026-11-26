@@ -61,7 +61,7 @@ await run('Jurnal, filter topik, status kosong, artikel, navigasi kembali',async
 await run('Tiga PDF, unduhan asli, halaman, zoom dan pencarian',async()=>{
  await visit('/publikasi');const links=await page.getByRole('link',{name:'Baca publikasi',exact:true}).evaluateAll(a=>a.map(e=>e.pathname));
  assert.equal(links.length,3);
- for(const link of links){await visit(link);const next=page.getByRole('button',{name:'Halaman berikutnya'});await next.click();await page.getByText('Hal. 2 / 8').waitFor();await page.waitForFunction(()=>document.querySelector('.pdf-sheet canvas')?.width>300);await page.getByLabel('Perbesaran').selectOption('1.25');const href=await page.locator('.pdf-toolbar a[download]').getAttribute('href');const pdf=await(await page.request.get(base+href)).body();assert.equal(pdf.subarray(0,5).toString(),'%PDF-');await page.getByLabel('Cari dalam PDF').fill('Indonesia');await page.locator('.pdf-results').waitFor()}
+ for(const link of links){await visit(link);const next=page.getByRole('button',{name:'Halaman berikutnya'});await next.click();await page.getByText('Hal. 2–3 / 8').waitFor();await page.waitForFunction(()=>document.querySelector('.pdf-sheet canvas')?.width>300);await page.getByLabel('Perbesaran').selectOption('1.25');const href=await page.locator('.pdf-toolbar a[download]').getAttribute('href');const pdf=await(await page.request.get(base+href)).body();assert.equal(pdf.subarray(0,5).toString(),'%PDF-');await page.getByLabel('Cari dalam PDF').fill('Indonesia');await page.locator('.pdf-results').waitFor()}
  await page.locator('.pdf-reader').scrollIntoViewIfNeeded();await capture('pembaca');
 });
 await run('Filter galeri, lightbox, zoom, panah dan Escape',async()=>{
@@ -72,7 +72,8 @@ await run('Menu ponsel, chatbot, WhatsApp dan Instagram',async()=>{
  await page.getByLabel('Buka menu',{exact:true}).tap({timeout:1000}).catch(()=>page.getByLabel('Buka menu',{exact:true}).click());
  await page.locator('#mobile-navigation a[href="/kontak"]').click();await page.locator('h1').waitFor();
  assert.ok(await page.locator('main a[href^="https://wa.me/6289673335886"]').count());assert.ok(await page.locator('main a[href*="instagram.com/fornak.id"]').count());
- await page.getByRole('button',{name:'Buka Asisten FORNAK'}).click();await page.getByRole('button',{name:'Misi FORNAK'}).click();assert.match(await page.locator('.assistant-messages').innerText(),/Pancasila/);await capture('asisten');await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Buka Asisten FORNAK'}).click();await page.getByRole('button',{name:'Misi FORNAK'}).click();assert.match(await page.locator('.assistant-messages').innerText(),/Pancasila/);await page.getByLabel('Tulis pertanyaan',{exact:true}).fill('Habakuk');await page.getByLabel('Kirim',{exact:true}).click();
+ assert.ok(await page.locator('.chat-turn a[href*="habakuk"]').count());await capture('asisten');await page.keyboard.press('Escape');
 });
 await run('Opini lengkap, sumber asli dan bahasa antarmuka',async()=>{
  await visit('/jurnal');
@@ -82,14 +83,19 @@ await run('Opini lengkap, sumber asli dan bahasa antarmuka',async()=>{
  assert.match(page.url(),/jurnal\/opini\//);
  await capture('opini');
  await visit('/publikasi');
- const language=page.locator('.locale-control select');
+ const pick=async code=>{await page.locator('.language-menu>button').click();await page.locator('.language-menu [lang="'+code+'"][role=menuitemradio]').click();await page.waitForFunction(code=>document.documentElement.lang===code,code);};
  for(const [code,heading] of [['en','Digital library'],['zh-CN','数字图书馆'],['zh-TW','數位圖書館']]){
-  await language.selectOption(code);
+  await pick(code);
   await page.waitForFunction(code=>document.documentElement.lang===code,code);
   assert.equal(await page.locator('html').getAttribute('lang'),code);
   assert.equal((await page.locator('h1').innerText()).toLowerCase(),heading.toLowerCase());
  }
- await page.reload();assert.equal(await language.inputValue(),'zh-TW');await language.selectOption('id');
+ await page.reload();await page.waitForFunction(()=>document.documentElement.lang==='zh-TW');
+ await visit('/jurnal/amazing-grace-iman-hukum-transformasi-bangsa');await page.waitForFunction(()=>document.documentElement.lang==='zh-TW');
+ assert.match(await page.locator('h1').innerText(),/奇異恩典/);assert.match(await page.locator('.article-body').innerText(),/牛頓/);
+ await page.locator('.original-toggle').click();assert.match(await page.locator('.article-body').innerText(),/Newton pernah/);
+ await visit('/jurnal');await page.locator('.journal-list__item h3 a').first().click();await page.locator('.inn-prose[lang="zh-TW"]').waitFor();
+ assert.match(await page.locator('.inn-prose').innerText(),/[\u4e00-\u9fff]/);await pick('id');
 });
 await run('Formulir minat, ukuran foto arsip dan bentang buku',async()=>{
  await visit('/');
@@ -108,7 +114,8 @@ await run('Formulir minat, ukuran foto arsip dan bentang buku',async()=>{
  await visit('/publikasi');await page.evaluate(async()=>{await Promise.all([...document.querySelectorAll('.catalog-volume img')].map(i=>i.decode()))});
  assert.ok(await page.locator('.catalog-volume figure').evaluateAll(figures=>figures.every(f=>f.querySelector('img').getBoundingClientRect().bottom<=f.getBoundingClientRect().bottom)));
  await page.locator('.catalog-volume figure a').first().click();
- await page.getByRole('button',{name:'Dua halaman'}).click();
+ const spread=page.getByRole('button',{name:'Dua halaman'});if(await spread.getAttribute('aria-pressed')==='false')await spread.click();
+ await page.getByRole('button',{name:'Halaman berikutnya'}).click();
  await page.waitForFunction(()=>[...document.querySelectorAll('.pdf-sheet canvas')].filter(c=>c.width>300).length===2);
 });
 }finally{fs.writeFileSync(directory+'/journeys.json',JSON.stringify({results,errors,audits},null,2));console.log(results.map(r=>r.label+' '+r.pass+(r.error?' '+r.error.slice(0,150):'')).join('\n'));await browser.close();await new Promise(r=>server.httpServer.close(r))}

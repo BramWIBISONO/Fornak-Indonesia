@@ -1,5 +1,9 @@
 import { useSyncExternalStore } from 'react';
-import { Languages } from 'lucide-react';
+import { Check, ChevronDown } from 'lucide-react';
+import { useEffect, useId, useRef } from 'react';
+import { LocaleFlag } from './LocaleFlag';
+import indonesia from './editions/id.json';
+let edition: Record<string,string> = indonesia;
 import { useState } from 'react';
 
 export const languages = {
@@ -34,8 +38,9 @@ document.documentElement.lang = locale;
 
 async function setLocale(next: Locale) {
   const number = ++requestNumber;
-  if (next !== 'id') await loadDictionary();
+  const nextEdition = next==='id' ? indonesia : (await Promise.all([import(`./editions/${next}.json`),loadDictionary()]))[0].default;
   if (number !== requestNumber || next === locale) return;
+  edition = nextEdition;
   locale = next;
   document.documentElement.lang = next;
   try { localStorage.setItem(storageKey, next); } catch { /* Keep the session preference. */ }
@@ -54,25 +59,37 @@ function subscribe(notify: () => void) {
 export const useLocale = () => useSyncExternalStore(subscribe, () => locale);
 
 export function tr(value: string): string {
-  if (locale === 'id') return value;
-  const translated = translations[value.trim()]?.[column[locale]];
+  if (locale === 'id') return edition[value.trim()] ?? value;
+  const translated = translations[value.trim()]?.[column[locale]] ?? edition[value.trim()];
   return translated ? value.replace(value.trim(), () => translated) : value;
 }
 
 export function LanguagePicker() {
   const current = useLocale();
-  const [failed, setFailed] = useState(false);
-  return (
-    <label className="locale-control">
-      <Languages size={18} aria-hidden="true"/>
-      <select aria-label="Bahasa / Language / 语言 / 語言" value={current}
-        onFocus={() => { void loadDictionary().catch(() => undefined); }}
-        onChange={event => { setFailed(false); void setLocale(event.target.value as Locale).catch(() => setFailed(true)); }}>
-        {Object.entries(languages).map(([code, name]) =>
-          <option key={code} value={code} lang={code}>{name}</option>
-        )}
-      </select>
-      {failed && <span role="alert">Terjemahan gagal dimuat. Silakan pilih bahasa kembali.</span>}
-    </label>
-  );
+  const [open,setOpen] = useState(false);
+  const [failed,setFailed] = useState(false);
+  const holder = useRef<HTMLDivElement>(null);
+  const trigger = useRef<HTMLButtonElement>(null);
+  const id = useId();
+  useEffect(()=>{
+    if(!open) return;
+    holder.current?.querySelector<HTMLButtonElement>('[aria-checked="true"]')?.focus();
+    const dismiss = (event:PointerEvent) => { if(!holder.current?.contains(event.target as Node)) setOpen(false); };
+    document.addEventListener('pointerdown',dismiss);
+    return ()=>document.removeEventListener('pointerdown',dismiss);
+  },[open]);
+  function close() {setOpen(false);trigger.current?.focus();}
+  return <div className="language-menu" ref={holder} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget))setOpen(false);}}>
+    <button ref={trigger} type="button" aria-label={'Bahasa / Language · '+languages[current]} aria-haspopup="menu" aria-controls={id} aria-expanded={open} onClick={()=>setOpen(!open)}><LocaleFlag code={current}/><span lang={current}>{languages[current]}</span><ChevronDown size={14}/></button>
+    {open && <div id={id} role="menu" aria-label="Bahasa / Language" onKeyDown={event=>{
+      if(event.key==='Escape'){event.preventDefault();close();return;}
+      const options=Array.from(event.currentTarget.querySelectorAll('button'));
+      const i=options.indexOf(document.activeElement as HTMLButtonElement);
+      const next=({ArrowDown:(i+1)%4,ArrowUp:(i+3)%4,Home:0,End:3} as Record<string,number>)[event.key];
+      if(next!==undefined){event.preventDefault();options[next].focus();}
+    }}>{Object.entries(languages).map(([code,name])=><button type="button" key={code} lang={code} role="menuitemradio" aria-checked={current===code}
+      onClick={()=>{setFailed(false);close();void setLocale(code as Locale).catch(()=>setFailed(true));}}>
+      <LocaleFlag code={code}/>{name}{current===code && <Check size={15}/>}</button>)}</div>}
+    {failed && <span role="alert">Terjemahan gagal dimuat. Silakan pilih bahasa kembali.</span>}
+  </div>;
 }
